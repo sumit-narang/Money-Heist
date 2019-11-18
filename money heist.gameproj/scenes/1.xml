@@ -311,12 +311,41 @@
         <actor id="id351534" prototype="id873909">
           <attributes>
             <point id="position">
-              <real id="x">506</real>
-              <real id="y">229</real>
+              <real id="x">628</real>
+              <real id="y">228</real>
             </point>
             <size id="size">
               <real id="width">120</real>
-              <real id="height">120</real>
+              <real id="height">162.666666666667</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id193524" prototype="id708186">
+          <attributes>
+            <point id="position">
+              <real id="x">408</real>
+              <real id="y">358</real>
+            </point>
+            <size id="size">
+              <real id="width">388.666666666667</real>
+              <real id="height">100</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">background Copy 1</text>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id864534" prototype="id325278">
+          <attributes>
+            <point id="position">
+              <real id="x">412</real>
+              <real id="y">239</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">141</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>

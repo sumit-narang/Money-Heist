@@ -101,7 +101,7 @@
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
             <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
-            <text id="RHS">250</text>
+            <text id="RHS">200</text>
           </attributes>
         </behavior>
         <behavior id="id668625" class="ChangeAttributeAction" enabled="true">
@@ -422,6 +422,36 @@
         <text id="actorTag">Ground</text>
         <index id="mode">0</index>
       </attributes>
+    </behavior>
+    <behavior id="id605667" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Killed by laser</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id962040" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey">id325278</text>
+              <text id="actorTag" />
+              <real id="mode">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id300606" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>
