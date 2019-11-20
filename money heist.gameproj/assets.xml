@@ -1,7 +1,2 @@
-<?xml version="1.0" encoding="utf-8"?>
-<assets PGFVersion="0.25" GSCVersion="1.25.6227">
-  <sounds />
-  <images />
-  <fonts />
-  <behaviors />
-</assets>
+<?xml version="1.0" encoding="UTF-8"?>
+<assets PGFVersion="0.25" GSCVersion="1.25.95"><sounds/><images><image name="storyimage"><file premulAlpha="0" name="storyimage.png" size="132292"/></image><image name="GO THIS WAY"><file premulAlpha="0" name="GO THIS WAY.png" size="1246"/></image><image name="THIS WORLD HAS GIVEN ME A LOT OF PAIN"><file premulAlpha="0" name="THIS WORLD HAS GIVEN ME A LOT OF PAIN.png" size="4859"/></image></images><behaviors/><fonts/></assets>
