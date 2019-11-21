@@ -484,7 +484,7 @@
           </attributes>
           <predicate type="collision">
             <attributes>
-              <text id="prototypeKey">id909450</text>
+              <text id="prototypeKey">id552253</text>
               <text id="actorTag" />
               <real id="mode">0</real>
             </attributes>
@@ -500,7 +500,7 @@
             <text id="RHS">
               <expression>
                 <reference keypath="game.attributes.id901778" />
-                <string xml:space="preserve">+1</string>
+                <string xml:space="preserve">+50</string>
               </expression>
             </text>
           </attributes>

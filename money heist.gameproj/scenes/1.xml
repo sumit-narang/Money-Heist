@@ -99,7 +99,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Scene 1</text>
+    <text id="name">Intro</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">1030</real>

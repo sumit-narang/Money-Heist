@@ -544,20 +544,6 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id139750" prototype="id748634">
-          <attributes>
-            <point id="position">
-              <real id="x">275</real>
-              <real id="y">358</real>
-            </point>
-            <size id="size">
-              <real id="width">120</real>
-              <real id="height">95.333333333333</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects />
-        </actor>
         <actor id="id788477" prototype="id436768">
           <attributes>
             <point id="position">
@@ -2094,7 +2080,7 @@
           <attributes>
             <point id="position">
               <real id="x">1809.5</real>
-              <real id="y">717</real>
+              <real id="y">716</real>
             </point>
             <size id="size">
               <real id="width">27</real>
@@ -2179,9 +2165,31 @@
         <boolean id="scrollable">true</boolean>
       </attributes>
     </layer>
+    <layer id="id133699">
+      <actors>
+        <actor id="id907291" prototype="id748634">
+          <attributes>
+            <point id="position">
+              <real id="x">96</real>
+              <real id="y">343</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">HUD</text>
+        <boolean id="scrollable">false</boolean>
+      </attributes>
+    </layer>
   </layers>
   <attributes>
-    <text id="name">Initial Scene</text>
+    <text id="name">Level 1</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">3000</real>
