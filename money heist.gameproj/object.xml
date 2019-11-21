@@ -41,6 +41,9 @@
     <actor id="id563859" />
     <actor id="id171490" />
     <actor id="id723168" />
+    <actor id="id452911" />
+    <actor id="id362675" />
+    <actor id="id440179" />
   </prototypes>
   <plugins>
     <attributes id="playhaven" />
@@ -49,8 +52,10 @@
     </attributes>
   </plugins>
   <scenes>
+    <scene id="id315841" />
     <scene id="id739733" />
     <scene id="id269551" />
+    <scene id="id211012" />
   </scenes>
   <attributes>
     <text id="name">default name</text>

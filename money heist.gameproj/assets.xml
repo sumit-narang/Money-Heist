@@ -25,6 +25,18 @@
     <sound name="staticsound">
       <file name="staticsound.ogg" size="121280" />
     </sound>
+    <sound name="background4">
+      <file name="background4.ogg" size="220536" />
+    </sound>
+    <sound name="background5">
+      <file name="background5.ogg" size="115380" />
+    </sound>
+    <sound name="background6">
+      <file name="background6.ogg" size="331213" />
+    </sound>
+    <sound name="gameover">
+      <file name="gameover.ogg" size="11007" />
+    </sound>
   </sounds>
   <images>
     <image name="wall-black">
@@ -128,6 +140,12 @@
     </image>
     <image name="003-right">
       <file name="003-right.png" size="6974" />
+    </image>
+    <image name="Game over screen">
+      <file name="Game over screen.png" size="1529455" />
+    </image>
+    <image name="Loading screen">
+      <file name="Loading screen.png" size="1420275" />
     </image>
   </images>
   <fonts />
