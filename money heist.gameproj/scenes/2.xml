@@ -2181,6 +2181,48 @@
           </attributes>
           <aspects />
         </actor>
+        <actor id="id113842" prototype="id563859">
+          <attributes>
+            <point id="position">
+              <real id="x">47</real>
+              <real id="y">38</real>
+            </point>
+            <size id="size">
+              <real id="width">53.3333333333334</real>
+              <real id="height">40</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id558120" prototype="id171490">
+          <attributes>
+            <point id="position">
+              <real id="x">168</real>
+              <real id="y">40</real>
+            </point>
+            <size id="size">
+              <real id="width">49.3333333333334</real>
+              <real id="height">40</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id430567" prototype="id723168">
+          <attributes>
+            <point id="position">
+              <real id="x">108</real>
+              <real id="y">43</real>
+            </point>
+            <size id="size">
+              <real id="width">60</real>
+              <real id="height">50</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
       </actors>
       <attributes>
         <text id="name">HUD</text>

@@ -38,6 +38,9 @@
     <actor id="id512924" />
     <actor id="id121817" />
     <actor id="id906638" />
+    <actor id="id563859" />
+    <actor id="id171490" />
+    <actor id="id723168" />
   </prototypes>
   <plugins>
     <attributes id="playhaven" />
@@ -211,5 +214,8 @@
     <table id="id376913" name="PurchaseTable">PurchaseTable</table>
     <boolean id="id589025" name="facingRight">true</boolean>
     <integer id="id901778" name="itemCount">0</integer>
+    <boolean id="id969891" name="leftPressed">false</boolean>
+    <boolean id="id743392" name="rightPressed">false</boolean>
+    <boolean id="id231935" name="jumpPressed">false</boolean>
   </attributes>
 </game>

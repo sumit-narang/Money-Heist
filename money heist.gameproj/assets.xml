@@ -95,6 +95,15 @@
     <image name="chains-long">
       <file name="chains-long.png" size="2987" />
     </image>
+    <image name="001-up-arrow">
+      <file name="001-up-arrow.png" size="6654" />
+    </image>
+    <image name="002-left">
+      <file name="002-left.png" size="7064" />
+    </image>
+    <image name="003-right">
+      <file name="003-right.png" size="6974" />
+    </image>
   </images>
   <fonts />
   <behaviors />
