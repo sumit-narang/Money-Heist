@@ -30,7 +30,7 @@
         <angle id="direction">0</angle>
         <index id="space">0</index>
         <index id="moveType">0</index>
-        <real id="speed">300</real>
+        <real id="speed">400</real>
         <boolean id="haltWhenBehaviorStops">true</boolean>
       </attributes>
     </behavior>

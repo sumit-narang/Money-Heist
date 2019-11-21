@@ -57,15 +57,28 @@
             <angle id="rotation">0</angle>
           </attributes>
           <behaviors>
-            <behavior id="id122589" class="AnimateBehavior" enabled="true">
+            <behavior id="id981016" class="AnimateBehavior" enabled="true">
               <attributes>
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
-                <text id="images">tv-b	tv-c	tv-d	tv1</text>
+                <text id="images">tv-side-b	tv2	tv-side-c	tv-side-d</text>
                 <index id="speed">10</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+            <behavior id="id493242" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name">Play Sound</text>
+                <text id="bundleName">PlaySound.behavior</text>
+                <sound id="soundName">staticsound</sound>
+                <boolean id="loop">true</boolean>
+                <boolean id="runToCompletion">true</boolean>
+                <boolean id="positional">false</boolean>
+                <boolean id="dopplerShift">false</boolean>
+                <real id="volume">0</real>
+                <real id="pitch">1</real>
               </attributes>
             </behavior>
           </behaviors>
@@ -757,7 +770,7 @@
             </size>
           </attributes>
           <behaviors>
-            <behavior id="id955521" class="AnimateBehavior" enabled="true">
+            <behavior id="id107976" class="AnimateBehavior" enabled="true">
               <attributes>
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
@@ -766,6 +779,19 @@
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+            <behavior id="id613905" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name">Play Sound</text>
+                <text id="bundleName">PlaySound.behavior</text>
+                <sound id="soundName">electriclightflicker</sound>
+                <boolean id="loop">true</boolean>
+                <boolean id="runToCompletion">true</boolean>
+                <boolean id="positional">false</boolean>
+                <boolean id="dopplerShift">false</boolean>
+                <real id="volume">1</real>
+                <real id="pitch">1</real>
               </attributes>
             </behavior>
           </behaviors>
@@ -783,15 +809,28 @@
             </size>
           </attributes>
           <behaviors>
-            <behavior id="id457264" class="AnimateBehavior" enabled="true">
+            <behavior id="id760705" class="AnimateBehavior" enabled="true">
               <attributes>
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">lightss-blue	lights-b	lights-c</text>
-                <index id="speed">13</index>
+                <index id="speed">12</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+            <behavior id="id882375" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name">Play Sound</text>
+                <text id="bundleName">PlaySound.behavior</text>
+                <sound id="soundName">electriclightflicker</sound>
+                <boolean id="loop">true</boolean>
+                <boolean id="runToCompletion">true</boolean>
+                <boolean id="positional">false</boolean>
+                <boolean id="dopplerShift">false</boolean>
+                <real id="volume">1</real>
+                <real id="pitch">1</real>
               </attributes>
             </behavior>
           </behaviors>
@@ -865,15 +904,28 @@
             <angle id="rotation">0</angle>
           </attributes>
           <behaviors>
-            <behavior id="id708198" class="AnimateBehavior" enabled="true">
+            <behavior id="id357048" class="AnimateBehavior" enabled="true">
               <attributes>
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
-                <text id="images">tv-b	tv-c	tv1	tv-d</text>
+                <text id="images">tv-side-b	tv2	tv-side-c	tv-side-d</text>
                 <index id="speed">10</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+            <behavior id="id955215" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name">Play Sound</text>
+                <text id="bundleName">PlaySound.behavior</text>
+                <sound id="soundName">staticsound</sound>
+                <boolean id="loop">true</boolean>
+                <boolean id="runToCompletion">true</boolean>
+                <boolean id="positional">false</boolean>
+                <boolean id="dopplerShift">false</boolean>
+                <real id="volume">0</real>
+                <real id="pitch">1</real>
               </attributes>
             </behavior>
           </behaviors>
@@ -892,15 +944,17 @@
             <angle id="rotation">0</angle>
           </attributes>
           <behaviors>
-            <behavior id="id225432" class="AnimateBehavior" enabled="true">
+            <behavior id="id724342" class="PlaySoundAction" enabled="true">
               <attributes>
-                <text id="name">Animate</text>
-                <text id="bundleName">Animate.behavior</text>
-                <text id="images">tv-d	tv-c	tv-b	tv1</text>
-                <index id="speed">10</index>
+                <text id="name">Play Sound</text>
+                <text id="bundleName">PlaySound.behavior</text>
+                <sound id="soundName">staticsound</sound>
                 <boolean id="loop">true</boolean>
-                <boolean id="restoreActorImage">true</boolean>
-                <text id="currentFrameAttribute" />
+                <boolean id="runToCompletion">true</boolean>
+                <boolean id="positional">false</boolean>
+                <boolean id="dopplerShift">false</boolean>
+                <real id="volume">0</real>
+                <real id="pitch">1</real>
               </attributes>
             </behavior>
           </behaviors>
@@ -914,15 +968,28 @@
             </point>
           </attributes>
           <behaviors>
-            <behavior id="id974868" class="AnimateBehavior" enabled="true">
+            <behavior id="id540806" class="AnimateBehavior" enabled="true">
               <attributes>
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
-                <text id="images">tv2	tv-side-b	tv-side-c	tv-side-d</text>
+                <text id="images">tv-side-b	tv2	tv-side-c	tv-side-d</text>
                 <index id="speed">10</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+            <behavior id="id874352" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name">Play Sound</text>
+                <text id="bundleName">PlaySound.behavior</text>
+                <sound id="soundName">staticsound</sound>
+                <boolean id="loop">true</boolean>
+                <boolean id="runToCompletion">true</boolean>
+                <boolean id="positional">false</boolean>
+                <boolean id="dopplerShift">false</boolean>
+                <real id="volume">1</real>
+                <real id="pitch">1</real>
               </attributes>
             </behavior>
           </behaviors>
@@ -936,7 +1003,7 @@
             </point>
           </attributes>
           <behaviors>
-            <behavior id="id710095" class="AnimateBehavior" enabled="true">
+            <behavior id="id160082" class="AnimateBehavior" enabled="true">
               <attributes>
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
@@ -945,6 +1012,19 @@
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+            <behavior id="id355341" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name">Play Sound</text>
+                <text id="bundleName">PlaySound.behavior</text>
+                <sound id="soundName">staticsound</sound>
+                <boolean id="loop">true</boolean>
+                <boolean id="runToCompletion">true</boolean>
+                <boolean id="positional">false</boolean>
+                <boolean id="dopplerShift">false</boolean>
+                <real id="volume">1</real>
+                <real id="pitch">1</real>
               </attributes>
             </behavior>
           </behaviors>
@@ -1209,7 +1289,7 @@
             </size>
           </attributes>
           <behaviors>
-            <behavior id="id355446" class="AnimateBehavior" enabled="true">
+            <behavior id="id899272" class="AnimateBehavior" enabled="true">
               <attributes>
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
@@ -1218,6 +1298,19 @@
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+            <behavior id="id125295" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name">Play Sound</text>
+                <text id="bundleName">PlaySound.behavior</text>
+                <sound id="soundName">electriclightflicker</sound>
+                <boolean id="loop">true</boolean>
+                <boolean id="runToCompletion">true</boolean>
+                <boolean id="positional">false</boolean>
+                <boolean id="dopplerShift">false</boolean>
+                <real id="volume">1</real>
+                <real id="pitch">1</real>
               </attributes>
             </behavior>
           </behaviors>
@@ -1374,7 +1467,7 @@
             </size>
           </attributes>
           <behaviors>
-            <behavior id="id697299" class="AnimateBehavior" enabled="true">
+            <behavior id="id612720" class="AnimateBehavior" enabled="true">
               <attributes>
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
@@ -1383,6 +1476,19 @@
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+            <behavior id="id177427" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name">Play Sound</text>
+                <text id="bundleName">PlaySound.behavior</text>
+                <sound id="soundName">electriclightflicker</sound>
+                <boolean id="loop">true</boolean>
+                <boolean id="runToCompletion">true</boolean>
+                <boolean id="positional">false</boolean>
+                <boolean id="dopplerShift">false</boolean>
+                <real id="volume">1</real>
+                <real id="pitch">1</real>
               </attributes>
             </behavior>
           </behaviors>
@@ -1400,15 +1506,28 @@
             </size>
           </attributes>
           <behaviors>
-            <behavior id="id522113" class="AnimateBehavior" enabled="true">
+            <behavior id="id949069" class="AnimateBehavior" enabled="true">
               <attributes>
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">lights-white	lights-yellow-b	lights-yellow-c</text>
-                <index id="speed">11</index>
+                <index id="speed">12</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+            <behavior id="id112966" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name">Play Sound</text>
+                <text id="bundleName">PlaySound.behavior</text>
+                <sound id="soundName">electriclightflicker</sound>
+                <boolean id="loop">true</boolean>
+                <boolean id="runToCompletion">true</boolean>
+                <boolean id="positional">false</boolean>
+                <boolean id="dopplerShift">false</boolean>
+                <real id="volume">1</real>
+                <real id="pitch">1</real>
               </attributes>
             </behavior>
           </behaviors>
@@ -2047,6 +2166,40 @@
               <real id="y">639.5</real>
             </point>
           </attributes>
+          <behaviors>
+            <behavior id="id571481" class="TimerBehavior" enabled="true">
+              <attributes>
+                <text id="name">Timer</text>
+                <text id="bundleName">Timer.behavior</text>
+                <boolean id="runOnce">false</boolean>
+                <boolean id="runSequentially">false</boolean>
+                <index id="timerType">1</index>
+                <real id="interval">3</real>
+                <boolean id="runToCompletion">true</boolean>
+              </attributes>
+              <behaviors>
+                <behavior id="id609069" class="SpawnAction" enabled="true">
+                  <attributes>
+                    <text id="name">Spawn Actor</text>
+                    <text id="bundleName">Spawn.behavior</text>
+                    <text id="prototypeKey">id989241</text>
+                    <angle id="direction">0</angle>
+                    <index id="directionSpace">0</index>
+                    <real id="x">0</real>
+                    <real id="y">0</real>
+                    <index id="positionSpace">0</index>
+                    <index id="layerOrder">0</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id792236" class="DestroyAction" enabled="true">
+                  <attributes>
+                    <text id="name">Destroy</text>
+                    <text id="bundleName">Destroy.behavior</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
           <aspects />
         </actor>
         <actor id="id248448" prototype="id906638">

@@ -22,7 +22,32 @@
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors />
+  <behaviors>
+    <behavior id="id346063" class="AnimateBehavior" enabled="true">
+      <attributes>
+        <text id="name">Animate</text>
+        <text id="bundleName">Animate.behavior</text>
+        <text id="images">tv-side-b	tv2	tv-side-c	tv-side-d</text>
+        <index id="speed">10</index>
+        <boolean id="loop">true</boolean>
+        <boolean id="restoreActorImage">true</boolean>
+        <text id="currentFrameAttribute" />
+      </attributes>
+    </behavior>
+    <behavior id="id261948" class="PlaySoundAction" enabled="true">
+      <attributes>
+        <text id="name">Play Sound</text>
+        <text id="bundleName">PlaySound.behavior</text>
+        <sound id="soundName">staticsound</sound>
+        <boolean id="loop">true</boolean>
+        <boolean id="runToCompletion">true</boolean>
+        <boolean id="positional">false</boolean>
+        <boolean id="dopplerShift">false</boolean>
+        <real id="volume">0</real>
+        <real id="pitch">1</real>
+      </attributes>
+    </behavior>
+  </behaviors>
   <aspects>
     <graphics>
       <attributes>
