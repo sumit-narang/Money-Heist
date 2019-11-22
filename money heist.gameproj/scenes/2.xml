@@ -120,10 +120,88 @@
           </behaviors>
           <aspects />
         </actor>
+        <actor id="id769227" prototype="id654232">
+          <attributes>
+            <point id="position">
+              <real id="x">387</real>
+              <real id="y">170</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
       </actors>
       <attributes>
         <text id="name">Background</text>
         <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+    <layer id="id205037">
+      <actors>
+        <actor id="id530205" prototype="id654232">
+          <attributes>
+            <point id="position">
+              <real id="x">338</real>
+              <real id="y">227</real>
+            </point>
+            <size id="size">
+              <real id="width">678.666666666667</real>
+              <real id="height">305.333333333333</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id458017" prototype="id563859">
+          <attributes>
+            <point id="position">
+              <real id="x">29</real>
+              <real id="y">40</real>
+            </point>
+            <size id="size">
+              <real id="width">40</real>
+              <real id="height">40</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id199446" prototype="id723168">
+          <attributes>
+            <point id="position">
+              <real id="x">74</real>
+              <real id="y">43</real>
+            </point>
+            <size id="size">
+              <real id="width">46</real>
+              <real id="height">50.6666666666666</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id541708" prototype="id171490">
+          <attributes>
+            <point id="position">
+              <real id="x">117</real>
+              <real id="y">40</real>
+            </point>
+            <size id="size">
+              <real id="width">40</real>
+              <real id="height">40</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">HUD</text>
+        <boolean id="scrollable">false</boolean>
       </attributes>
     </layer>
   </layers>

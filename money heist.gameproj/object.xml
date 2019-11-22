@@ -41,6 +41,7 @@
     <actor id="id563859" />
     <actor id="id171490" />
     <actor id="id723168" />
+    <actor id="id654232" />
     <actor id="id452911" />
     <actor id="id362675" />
     <actor id="id440179" />
@@ -222,5 +223,6 @@
     <boolean id="id969891" name="leftPressed">false</boolean>
     <boolean id="id743392" name="rightPressed">false</boolean>
     <boolean id="id231935" name="jumpPressed">false</boolean>
+    <boolean id="id983846" name="shootPressed">false</boolean>
   </attributes>
 </game>

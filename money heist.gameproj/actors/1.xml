@@ -335,19 +335,17 @@
         <boolean id="runSequentially">false</boolean>
       </attributes>
       <behaviors>
-        <behavior id="id576461" class="RuleBehavior" enabled="true">
+        <behavior id="id114387" class="RuleBehavior" enabled="true">
           <attributes>
-            <text id="name">Left</text>
+            <text id="name">Rule</text>
             <text id="bundleName">Rule.behavior</text>
-            <boolean id="runOnce">false</boolean>
-            <boolean id="runSequentially">false</boolean>
-            <real id="compoundConditionKind">0</real>
+            <real id="compoundConditionKind">1</real>
           </attributes>
           <conditions>
-            <condition id="id137965" eventType="key" pluginPredicateTypeIndex="0">
+            <condition id="id896558" eventType="key" pluginPredicateTypeIndex="0" class="Key">
               <attributes>
-                <index id="conditionType">0</index>
                 <text id="name">default name</text>
+                <index id="conditionType">0</index>
               </attributes>
               <predicate type="key">
                 <attributes>
@@ -356,74 +354,10 @@
                 </attributes>
               </predicate>
             </condition>
-            <condition id="id681627" eventType="mouse position" pluginPredicateTypeIndex="0">
+            <condition id="id203218" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
               <attributes>
                 <index id="conditionType">1</index>
-                <text id="subjectAttribute">game.attributes.id589025</text>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="boolean">
-                <attributes>
-                  <index id="RHS">0</index>
-                </attributes>
-              </predicate>
-            </condition>
-          </conditions>
-          <behaviors>
-            <behavior id="id261974" class="SpawnAction" enabled="true">
-              <attributes>
-                <text id="name">Spawn Actor</text>
-                <text id="bundleName">Spawn.behavior</text>
-                <text id="prototypeKey">id607439</text>
-                <angle id="direction">180</angle>
-                <index id="directionSpace">0</index>
-                <real id="x">0</real>
-                <real id="y">0</real>
-                <index id="positionSpace">0</index>
-                <index id="layerOrder">0</index>
-              </attributes>
-            </behavior>
-            <behavior id="id328267" class="PlaySoundAction" enabled="true">
-              <attributes>
-                <text id="name">Play Sound</text>
-                <text id="bundleName">PlaySound.behavior</text>
-                <sound id="soundName">lever-rifle-gunshot-2</sound>
-                <boolean id="loop">false</boolean>
-                <boolean id="runToCompletion">true</boolean>
-                <boolean id="positional">false</boolean>
-                <boolean id="dopplerShift">false</boolean>
-                <real id="volume">1</real>
-                <real id="pitch">1</real>
-              </attributes>
-            </behavior>
-          </behaviors>
-          <elseBehaviors />
-        </behavior>
-        <behavior id="id604351" class="RuleBehavior" enabled="true">
-          <attributes>
-            <text id="name">Right</text>
-            <text id="bundleName">Rule.behavior</text>
-            <boolean id="runOnce">false</boolean>
-            <boolean id="runSequentially">false</boolean>
-            <real id="compoundConditionKind">0</real>
-          </attributes>
-          <conditions>
-            <condition id="id943939" eventType="key" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="key">
-                <attributes>
-                  <text id="mode">down</text>
-                  <text id="keyString">space</text>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id913385" eventType="mouse position" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">1</index>
-                <text id="subjectAttribute">game.attributes.id589025</text>
+                <text id="subjectAttribute">game.attributes.id983846</text>
                 <text id="name">default name</text>
               </attributes>
               <predicate type="boolean">
@@ -434,34 +368,111 @@
             </condition>
           </conditions>
           <behaviors>
-            <behavior id="id474561" class="SpawnAction" enabled="true">
+            <behavior id="id576461" class="RuleBehavior" enabled="true">
               <attributes>
-                <text id="name">Spawn Actor</text>
-                <text id="bundleName">Spawn.behavior</text>
-                <text id="prototypeKey">id607439</text>
-                <angle id="direction">0</angle>
-                <index id="directionSpace">0</index>
-                <real id="x">0</real>
-                <real id="y">0</real>
-                <index id="positionSpace">0</index>
-                <index id="layerOrder">0</index>
+                <text id="name">Left</text>
+                <text id="bundleName">Rule.behavior</text>
+                <boolean id="runOnce">false</boolean>
+                <boolean id="runSequentially">false</boolean>
+                <real id="compoundConditionKind">0</real>
               </attributes>
+              <conditions>
+                <condition id="id681627" eventType="mouse position" pluginPredicateTypeIndex="0">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id589025</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="boolean">
+                    <attributes>
+                      <index id="RHS">0</index>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id261974" class="SpawnAction" enabled="true">
+                  <attributes>
+                    <text id="name">Spawn Actor</text>
+                    <text id="bundleName">Spawn.behavior</text>
+                    <text id="prototypeKey">id607439</text>
+                    <angle id="direction">180</angle>
+                    <index id="directionSpace">0</index>
+                    <real id="x">0</real>
+                    <real id="y">0</real>
+                    <index id="positionSpace">0</index>
+                    <index id="layerOrder">0</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id328267" class="PlaySoundAction" enabled="true">
+                  <attributes>
+                    <text id="name">Play Sound</text>
+                    <text id="bundleName">PlaySound.behavior</text>
+                    <sound id="soundName">lever-rifle-gunshot-2</sound>
+                    <boolean id="loop">false</boolean>
+                    <boolean id="runToCompletion">true</boolean>
+                    <boolean id="positional">false</boolean>
+                    <boolean id="dopplerShift">false</boolean>
+                    <real id="volume">1</real>
+                    <real id="pitch">1</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors />
             </behavior>
-            <behavior id="id180034" class="PlaySoundAction" enabled="true">
+            <behavior id="id604351" class="RuleBehavior" enabled="true">
               <attributes>
-                <text id="name">Play Sound</text>
-                <text id="bundleName">PlaySound.behavior</text>
-                <sound id="soundName">lever-rifle-gunshot-2</sound>
-                <boolean id="loop">false</boolean>
-                <boolean id="runToCompletion">true</boolean>
-                <boolean id="positional">false</boolean>
-                <boolean id="dopplerShift">false</boolean>
-                <real id="volume">1</real>
-                <real id="pitch">1</real>
+                <text id="name">Right</text>
+                <text id="bundleName">Rule.behavior</text>
+                <boolean id="runOnce">false</boolean>
+                <boolean id="runSequentially">false</boolean>
+                <real id="compoundConditionKind">0</real>
               </attributes>
+              <conditions>
+                <condition id="id913385" eventType="mouse position" pluginPredicateTypeIndex="0">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id589025</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="boolean">
+                    <attributes>
+                      <index id="RHS">1</index>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id474561" class="SpawnAction" enabled="true">
+                  <attributes>
+                    <text id="name">Spawn Actor</text>
+                    <text id="bundleName">Spawn.behavior</text>
+                    <text id="prototypeKey">id607439</text>
+                    <angle id="direction">0</angle>
+                    <index id="directionSpace">0</index>
+                    <real id="x">0</real>
+                    <real id="y">0</real>
+                    <index id="positionSpace">0</index>
+                    <index id="layerOrder">0</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id180034" class="PlaySoundAction" enabled="true">
+                  <attributes>
+                    <text id="name">Play Sound</text>
+                    <text id="bundleName">PlaySound.behavior</text>
+                    <sound id="soundName">lever-rifle-gunshot-2</sound>
+                    <boolean id="loop">false</boolean>
+                    <boolean id="runToCompletion">true</boolean>
+                    <boolean id="positional">false</boolean>
+                    <boolean id="dopplerShift">false</boolean>
+                    <real id="volume">1</real>
+                    <real id="pitch">1</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors />
             </behavior>
           </behaviors>
-          <elseBehaviors />
         </behavior>
       </behaviors>
     </behavior>
