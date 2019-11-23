@@ -3,6 +3,33 @@
   <layers>
     <layer id="id112326">
       <actors>
+        <actor id="id539176" prototype="id708186">
+          <attributes>
+            <point id="position">
+              <real id="x">800</real>
+              <real id="y">184.5</real>
+            </point>
+            <size id="size">
+              <real id="width">144</real>
+              <real id="height">49</real>
+            </size>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id903479" prototype="id708186">
+          <attributes>
+            <point id="position">
+              <real id="x">803</real>
+              <real id="y">224</real>
+            </point>
+            <size id="size">
+              <real id="width">102</real>
+              <real id="height">49</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
         <actor id="id441312" prototype="id510082">
           <attributes>
             <point id="position">
@@ -60,7 +87,7 @@
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">tv-side-b	tv2	tv-side-c	tv-side-d</text>
-                <index id="speed">10</index>
+                <index id="speed">6</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
@@ -95,7 +122,7 @@
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">tv-side-b	tv2	tv-side-c	tv-side-d</text>
-                <index id="speed">10</index>
+                <index id="speed">4</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
@@ -808,7 +835,7 @@
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">lightss-blue	lights-b	lights-c</text>
-                <index id="speed">12</index>
+                <index id="speed">9</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
@@ -847,7 +874,7 @@
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">lightss-blue	lights-b	lights-c</text>
-                <index id="speed">12</index>
+                <index id="speed">7</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
@@ -942,7 +969,7 @@
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">tv-side-b	tv2	tv-side-c	tv-side-d</text>
-                <index id="speed">10</index>
+                <index id="speed">6</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
@@ -982,7 +1009,7 @@
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">tv-side-b	tv2	tv-side-c	tv-side-d</text>
-                <index id="speed">10</index>
+                <index id="speed">5</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
@@ -1017,7 +1044,7 @@
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">tv-side-b	tv2	tv-side-c	tv-side-d</text>
-                <index id="speed">10</index>
+                <index id="speed">7</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
@@ -1303,7 +1330,7 @@
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">lightss-blue	lights-b	lights-c</text>
-                <index id="speed">12</index>
+                <index id="speed">8</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
@@ -1481,7 +1508,7 @@
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">lights-white	lights-yellow-b	lights-yellow-c</text>
-                <index id="speed">12</index>
+                <index id="speed">9</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
@@ -1520,7 +1547,7 @@
                 <text id="name">Animate</text>
                 <text id="bundleName">Animate.behavior</text>
                 <text id="images">lights-white	lights-yellow-b	lights-yellow-c</text>
-                <index id="speed">12</index>
+                <index id="speed">7</index>
                 <boolean id="loop">true</boolean>
                 <boolean id="restoreActorImage">true</boolean>
                 <text id="currentFrameAttribute" />
@@ -2395,32 +2422,6 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id903479" prototype="id708186">
-          <attributes>
-            <point id="position">
-              <real id="x">805</real>
-              <real id="y">226.5</real>
-            </point>
-            <size id="size">
-              <real id="width">102</real>
-              <real id="height">49</real>
-            </size>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id539176" prototype="id708186">
-          <attributes>
-            <point id="position">
-              <real id="x">800</real>
-              <real id="y">184.5</real>
-            </point>
-            <size id="size">
-              <real id="width">144</real>
-              <real id="height">49</real>
-            </size>
-          </attributes>
-          <aspects />
-        </actor>
         <actor id="id740771" prototype="id563859">
           <attributes>
             <point id="position">
@@ -2437,8 +2438,8 @@
         <actor id="id553325" prototype="id654232">
           <attributes>
             <point id="position">
-              <real id="x">442</real>
-              <real id="y">181</real>
+              <real id="x">513</real>
+              <real id="y">177</real>
             </point>
             <size id="size">
               <real id="width">462</real>

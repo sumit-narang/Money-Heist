@@ -30,7 +30,11 @@
         <boolean id="runOnce">false</boolean>
         <boolean id="runSequentially">false</boolean>
         <index id="timerType">1</index>
-        <real id="interval">3</real>
+        <real id="interval">
+          <expression>
+            <string xml:space="preserve">random(2, 3)</string>
+          </expression>
+        </real>
         <boolean id="runToCompletion">true</boolean>
       </attributes>
       <behaviors>
