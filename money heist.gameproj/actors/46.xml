@@ -30,6 +30,7 @@
   </attributes>
   <behaviors>
     <behavior id="id634860" class="AccelerateBehavior" enabled="true">
+<<<<<<< Updated upstream
       <attributes>
         <text id="name">Accelerate</text>
         <text id="bundleName">Accelerate.behavior</text>
@@ -40,6 +41,18 @@
     </behavior>
     <behavior id="id292192" class="CollideBehavior" enabled="true">
       <attributes>
+=======
+      <attributes>
+        <text id="name">Accelerate</text>
+        <text id="bundleName">Accelerate.behavior</text>
+        <angle id="direction">270</angle>
+        <index id="space">1</index>
+        <real id="acceleration">200</real>
+      </attributes>
+    </behavior>
+    <behavior id="id292192" class="CollideBehavior" enabled="true">
+      <attributes>
+>>>>>>> Stashed changes
         <text id="name">Collide</text>
         <text id="bundleName">Collide.behavior</text>
         <text id="prototypeKey">id874914</text>
