@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id721297" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id116435" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">chain-handcuff</text>
+    <text id="name">wall-white</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">121</real>
-      <real id="height">228</real>
+      <real id="width">225.5</real>
+      <real id="height">146</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,7 +18,7 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">chain-handcuff</image>
+    <image id="image">wall-white</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
@@ -28,14 +28,14 @@
       <attributes>
         <boolean id="visible">true</boolean>
         <enumeration id="blendingMode">0</enumeration>
-        <enumeration id="horizontalWrap">0</enumeration>
+        <enumeration id="horizontalWrap">2</enumeration>
         <enumeration id="verticalWrap">0</enumeration>
         <enumeration id="horizontalAnchor">0</enumeration>
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth">121</integer>
-        <integer id="tileHeight">228</integer>
+        <integer id="tileWidth">226</integer>
+        <integer id="tileHeight">146</integer>
       </attributes>
     </graphics>
     <motion>

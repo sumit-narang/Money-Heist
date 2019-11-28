@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id245701" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id716446" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">chains-long</text>
+    <text id="name">THIS WORLD HAS GIVEN ME A LOT OF PAIN</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">29</real>
-      <real id="height">236</real>
+      <real id="width">177</real>
+      <real id="height">99</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,7 +18,7 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">chains-long</image>
+    <image id="image">THIS WORLD HAS GIVEN ME A LOT OF PAIN</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
@@ -34,8 +34,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth">29</integer>
-        <integer id="tileHeight">236</integer>
+        <integer id="tileWidth">177</integer>
+        <integer id="tileHeight">99</integer>
       </attributes>
     </graphics>
     <motion>
