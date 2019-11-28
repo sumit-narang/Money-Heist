@@ -1,2 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <actor PGFVersion="0.25" id="id716446" GSCVersion="1.25.95"><attributes><text id="name">THIS WORLD HAS GIVEN ME A LOT OF PAIN</text><real id="time">0</real><point id="position"><real id="x">0</real><real id="y">0</real></point><size id="size"><real id="width">177</real><real id="height">99</real></size><angle id="rotation">0</angle><color id="color"><real id="red">1</real><real id="green">1</real><real id="blue">1</real><real id="alpha">1</real></color><image id="image">THIS WORLD HAS GIVEN ME A LOT OF PAIN</image><text id="tags"></text><boolean id="preloadArt">true</boolean></attributes><behaviors/><aspects><graphics><attributes><boolean id="visible">true</boolean><enumeration id="blendingMode">0</enumeration><enumeration id="horizontalWrap">0</enumeration><enumeration id="verticalWrap">0</enumeration><enumeration id="horizontalAnchor">0</enumeration><enumeration id="verticalAnchor">0</enumeration><boolean id="flipHorizontally">false</boolean><boolean id="flipVertically">false</boolean><integer id="tileWidth">177</integer><integer id="tileHeight">99</integer></attributes></graphics><motion><attributes><point id="linearVelocity"><real id="x">0</real><real id="y">0</real></point><point id="centerOfMass"><real id="x">0</real><real id="y">0</real></point><real id="angularVelocity">0</real><real id="maxSpeed">0</real><boolean id="applyMaxSpeed">false</boolean><boolean id="pin">false</boolean></attributes></motion><physics><attributes><real id="density">1</real><real id="friction">3</real><real id="restitution">1</real><boolean id="fixedRotation">false</boolean><boolean id="movable">true</boolean><enumeration id="collisionShape">0</enumeration><real id="drag">0</real><real id="angularDrag">0</real><boolean id="canSleep">true</boolean><boolean id="betterColisions">false</boolean></attributes></physics></aspects></actor>
+=======
+<actor PGFVersion="0.25" id="id365646" GSCVersion="1.25.95"><attributes><text id="name">flicker-1</text><real id="time">0</real><point id="position"><real id="x">0</real><real id="y">0</real></point><size id="size"><real id="width">143</real><real id="height">106</real></size><angle id="rotation">0</angle><color id="color"><real id="red">1</real><real id="green">1</real><real id="blue">1</real><real id="alpha">1</real></color><image id="image">flicker-1</image><text id="tags"></text><boolean id="preloadArt">true</boolean></attributes><behaviors><behavior id="id909540" class="AnimateBehavior" enabled="true"><attributes><text id="name">Animate</text><text id="bundleName">Animate.behavior</text><text id="images">flicker-1	flicker-2	flicker-3	flicker-4	flicker-5	flicker-6	flicker-7	flicker-8	flicker-9	flicker-10	flicker-11	flicker-12	flicker-13	flicker-14	flicker-15	flicker-16	flicker-17	flicker-18</text><index id="speed">10</index><boolean id="loop">true</boolean><boolean id="restoreActorImage">true</boolean><text id="currentFrameAttribute"></text></attributes></behavior></behaviors><aspects><graphics><attributes><boolean id="visible">true</boolean><enumeration id="blendingMode">0</enumeration><enumeration id="horizontalWrap">0</enumeration><enumeration id="verticalWrap">0</enumeration><enumeration id="horizontalAnchor">0</enumeration><enumeration id="verticalAnchor">0</enumeration><boolean id="flipHorizontally">false</boolean><boolean id="flipVertically">false</boolean><integer id="tileWidth">143</integer><integer id="tileHeight">106</integer></attributes></graphics><motion><attributes><point id="linearVelocity"><real id="x">0</real><real id="y">0</real></point><point id="centerOfMass"><real id="x">0</real><real id="y">0</real></point><real id="angularVelocity">0</real><real id="maxSpeed">0</real><boolean id="applyMaxSpeed">false</boolean><boolean id="pin">false</boolean></attributes></motion><physics><attributes><real id="density">1</real><real id="friction">3</real><real id="restitution">1</real><boolean id="fixedRotation">false</boolean><boolean id="movable">true</boolean><enumeration id="collisionShape">0</enumeration><real id="drag">0</real><real id="angularDrag">0</real><boolean id="canSleep">true</boolean><boolean id="betterColisions">false</boolean></attributes></physics></aspects></actor>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<actor id="id580455" PGFVersion="0.25" GSCVersion="1.25.6227">
+  <attributes>
+    <text id="name">fire1</text>
+    <real id="time">0</real>
+    <point id="position">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <size id="size">
+      <real id="width">44</real>
+      <real id="height">81</real>
+    </size>
+    <angle id="rotation">0</angle>
+    <color id="color">
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
+      <real id="alpha">1</real>
+    </color>
+    <image id="image" />
+    <text id="tags" />
+    <boolean id="preloadArt">true</boolean>
+  </attributes>
+  <behaviors>
+    <behavior id="id950094" class="AnimateBehavior" enabled="true">
+      <attributes>
+        <text id="name">Animate</text>
+        <text id="bundleName">Animate.behavior</text>
+        <text id="images">fire1	fire2	fire3	fire4</text>
+        <index id="speed">10</index>
+        <boolean id="loop">true</boolean>
+        <boolean id="restoreActorImage">true</boolean>
+        <text id="currentFrameAttribute" />
+      </attributes>
+    </behavior>
+  </behaviors>
+  <aspects>
+    <graphics>
+      <attributes>
+        <boolean id="visible">true</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+        <enumeration id="horizontalWrap">0</enumeration>
+        <enumeration id="verticalWrap">0</enumeration>
+        <enumeration id="horizontalAnchor">0</enumeration>
+        <enumeration id="verticalAnchor">0</enumeration>
+        <boolean id="flipHorizontally">false</boolean>
+        <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth">44</integer>
+        <integer id="tileHeight">81</integer>
+      </attributes>
+    </graphics>
+    <motion>
+      <attributes>
+        <point id="linearVelocity">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <point id="centerOfMass">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <real id="angularVelocity">0</real>
+        <real id="maxSpeed">0</real>
+        <boolean id="applyMaxSpeed">false</boolean>
+        <boolean id="pin">false</boolean>
+      </attributes>
+    </motion>
+    <physics>
+      <attributes>
+        <real id="density">1</real>
+        <real id="friction">3</real>
+        <real id="restitution">1</real>
+        <boolean id="fixedRotation">false</boolean>
+        <boolean id="movable">true</boolean>
+        <enumeration id="collisionShape">0</enumeration>
+        <real id="drag">0</real>
+        <real id="angularDrag">0</real>
+        <boolean id="canSleep">true</boolean>
+        <boolean id="betterColisions">false</boolean>
+      </attributes>
+    </physics>
+  </aspects>
+</actor>
+>>>>>>> master
+>>>>>>> Stashed changes
