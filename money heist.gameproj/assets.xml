@@ -1,2 +1,263 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <assets PGFVersion="0.25" GSCVersion="1.25.95"><sounds><sound name="pow__fumiya112"><file premulAlpha="0" name="pow__fumiya112.ogg" size="11751"/></sound><sound name="low-gunshot-03"><file premulAlpha="0" name="low-gunshot-03.ogg" size="18715"/></sound><sound name="background4"><file premulAlpha="0" name="background4.ogg" size="220536"/></sound><sound name="shortelevatorsound"><file premulAlpha="0" name="shortelevatorsound.ogg" size="8844"/></sound><sound name="lever-rifle-gunshot-2"><file premulAlpha="0" name="lever-rifle-gunshot-2.ogg" size="16088"/></sound><sound name="staticsound"><file premulAlpha="0" name="staticsound.ogg" size="121280"/></sound><sound name="electriclightflicker"><file premulAlpha="0" name="electriclightflicker.ogg" size="166941"/></sound><sound name="space-shooting-sounds-001"><file premulAlpha="0" name="space-shooting-sounds-001.ogg" size="17599"/></sound><sound name="background5"><file premulAlpha="0" name="background5.ogg" size="115380"/></sound><sound name="gameover"><file premulAlpha="0" name="gameover.ogg" size="11007"/></sound><sound name="lift-engine"><file premulAlpha="0" name="lift-engine.ogg" size="29384"/></sound><sound name="background6"><file premulAlpha="0" name="background6.ogg" size="331213"/></sound></sounds><images><image name="box-red-1"><file premulAlpha="0" name="box-red-1.png" size="2064"/></image><image name="flicker-3"><file premulAlpha="0" name="flicker-3.png" size="24284"/></image><image name="top-btn"><file premulAlpha="0" name="top-btn.png" size="2647"/></image><image name="fire14"><file premulAlpha="0" name="fire14.png" size="6846"/></image><image name="lights-red2"><file premulAlpha="0" name="lights-red2.png" size="4948"/></image><image name="lights-b"><file premulAlpha="0" name="lights-b.png" size="2804"/></image><image name="chapter1"><file premulAlpha="0" name="chapter1.png" size="2649"/></image><image name="lights-c"><file premulAlpha="0" name="lights-c.png" size="1766"/></image><image name="flicker-16"><file premulAlpha="0" name="flicker-16.png" size="24411"/></image><image name="lightss-blue"><file premulAlpha="0" name="lightss-blue.png" size="6406"/></image><image name="barrel"><file premulAlpha="0" name="barrel.png" size="6806"/></image><image name="chain-handcuff"><file premulAlpha="0" name="chain-handcuff.png" size="13257"/></image><image name="fire8"><file premulAlpha="0" name="fire8.png" size="6809"/></image><image name="fire18"><file premulAlpha="0" name="fire18.png" size="7634"/></image><image name="fire9"><file premulAlpha="0" name="fire9.png" size="6791"/></image><image name="GO THIS WAY"><file premulAlpha="0" name="GO THIS WAY.png" size="1246"/></image><image name="fire10"><file premulAlpha="0" name="fire10.png" size="7063"/></image><image name="THIS WORLD HAS GIVEN ME A LOT OF PAIN"><file premulAlpha="0" name="THIS WORLD HAS GIVEN ME A LOT OF PAIN.png" size="4859"/></image><image name="fire25"><file premulAlpha="0" name="fire25.png" size="7354"/></image><image name="flicker-7"><file premulAlpha="0" name="flicker-7.png" size="24339"/></image><image name="fire7"><file premulAlpha="0" name="fire7.png" size="7053"/></image><image name="flicker-8"><file premulAlpha="0" name="flicker-8.png" size="24220"/></image><image name="tv-side-b"><file premulAlpha="0" name="tv-side-b.png" size="962"/></image><image name="flicker-10"><file premulAlpha="0" name="flicker-10.png" size="24059"/></image><image name="tv-b"><file premulAlpha="0" name="tv-b.png" size="1007"/></image><image name="Game over screen"><file premulAlpha="0" name="Game over screen.png" size="1529455"/></image><image name="storyimage"><file premulAlpha="0" name="storyimage.png" size="132292"/></image><image name="tv-side-c"><file premulAlpha="0" name="tv-side-c.png" size="959"/></image><image name="thief-layer1"><file premulAlpha="0" name="thief-layer1.png" size="2902"/></image><image name="level2-story"><file premulAlpha="0" name="level2-story.png" size="1264623"/></image><image name="bars"><file premulAlpha="0" name="bars.png" size="22441"/></image><image name="fire15"><file premulAlpha="0" name="fire15.png" size="6995"/></image><image name="flicker-15"><file premulAlpha="0" name="flicker-15.png" size="24303"/></image><image name="flicker-2"><file premulAlpha="0" name="flicker-2.png" size="24338"/></image><image name="box-red-4"><file premulAlpha="0" name="box-red-4.png" size="2675"/></image><image name="flicker-14"><file premulAlpha="0" name="flicker-14.png" size="24293"/></image><image name="Loading screen"><file premulAlpha="0" name="Loading screen.png" size="1420275"/></image><image name="002-left"><file premulAlpha="0" name="002-left.png" size="7064"/></image><image name="tv-side-d"><file premulAlpha="0" name="tv-side-d.png" size="975"/></image><image name="lasers"><file premulAlpha="0" name="lasers.png" size="232"/></image><image name="003-right"><file premulAlpha="0" name="003-right.png" size="6974"/></image><image name="fire6"><file premulAlpha="0" name="fire6.png" size="6956"/></image><image name="lights-white"><file premulAlpha="0" name="lights-white.png" size="6916"/></image><image name="lights-red1"><file premulAlpha="0" name="lights-red1.png" size="5589"/></image><image name="left-btn"><file premulAlpha="0" name="left-btn.png" size="3193"/></image><image name="fire12"><file premulAlpha="0" name="fire12.png" size="6728"/></image><image name="box-red-2"><file premulAlpha="0" name="box-red-2.png" size="2500"/></image><image name="fire13"><file premulAlpha="0" name="fire13.png" size="6603"/></image><image name="flicker-9"><file premulAlpha="0" name="flicker-9.png" size="24264"/></image><image name="tv-c"><file premulAlpha="0" name="tv-c.png" size="991"/></image><image name="fire24"><file premulAlpha="0" name="fire24.png" size="7140"/></image><image name="fire17"><file premulAlpha="0" name="fire17.png" size="7266"/></image><image name="pipe-horizontal"><file premulAlpha="0" name="pipe-horizontal.png" size="743"/></image><image name="flicker-4"><file premulAlpha="0" name="flicker-4.png" size="24332"/></image><image name="fire22"><file premulAlpha="0" name="fire22.png" size="7382"/></image><image name="fire1"><file premulAlpha="0" name="fire1.png" size="7289"/></image><image name="tv-d"><file premulAlpha="0" name="tv-d.png" size="1004"/></image><image name="flicker-13"><file premulAlpha="0" name="flicker-13.png" size="24072"/></image><image name="flicker-11"><file premulAlpha="0" name="flicker-11.png" size="24289"/></image><image name="flicker-12"><file premulAlpha="0" name="flicker-12.png" size="24121"/></image><image name="flicker-17"><file premulAlpha="0" name="flicker-17.png" size="24579"/></image><image name="fire3"><file premulAlpha="0" name="fire3.png" size="7687"/></image><image name="001-up-arrow"><file premulAlpha="0" name="001-up-arrow.png" size="6654"/></image><image name="wall-black"><file premulAlpha="0" name="wall-black.png" size="4105"/></image><image name="fire2"><file premulAlpha="0" name="fire2.png" size="7685"/></image><image name="box-red-5"><file premulAlpha="0" name="box-red-5.png" size="2389"/></image><image name="tv1"><file premulAlpha="0" name="tv1.png" size="455"/></image><image name="fire21"><file premulAlpha="0" name="fire21.png" size="7375"/></image><image name="flicker-5"><file premulAlpha="0" name="flicker-5.png" size="24299"/></image><image name="lights-yellow-c"><file premulAlpha="0" name="lights-yellow-c.png" size="1535"/></image><image name="thief-layer-move"><file premulAlpha="0" name="thief-layer-move.png" size="2883"/></image><image name="fire20"><file premulAlpha="0" name="fire20.png" size="7367"/></image><image name="wall-brown-bg"><file premulAlpha="0" name="wall-brown-bg.png" size="64255"/></image><image name="thief-layer2"><file premulAlpha="0" name="thief-layer2.png" size="2820"/></image><image name="fire11"><file premulAlpha="0" name="fire11.png" size="6629"/></image><image name="chains-long"><file premulAlpha="0" name="chains-long.png" size="2987"/></image><image name="box-red-6"><file premulAlpha="0" name="box-red-6.png" size="2094"/></image><image name="fire23"><file premulAlpha="0" name="fire23.png" size="7371"/></image><image name="flicker-1"><file premulAlpha="0" name="flicker-1.png" size="24260"/></image><image name="flicker-6"><file premulAlpha="0" name="flicker-6.png" size="24280"/></image><image name="fire4"><file premulAlpha="0" name="fire4.png" size="7738"/></image><image name="windows-white"><file premulAlpha="0" name="windows-white.png" size="11331"/></image><image name="lights-red3"><file premulAlpha="0" name="lights-red3.png" size="4057"/></image><image name="flicker-18"><file premulAlpha="0" name="flicker-18.png" size="24566"/></image><image name="tv2"><file premulAlpha="0" name="tv2.png" size="728"/></image><image name="wall-white"><file premulAlpha="0" name="wall-white.png" size="53012"/></image><image name="money"><file premulAlpha="0" name="money.png" size="6398"/></image><image name="fire19"><file premulAlpha="0" name="fire19.png" size="7643"/></image><image name="lights-yellow-b"><file premulAlpha="0" name="lights-yellow-b.png" size="2044"/></image><image name="box-red-3"><file premulAlpha="0" name="box-red-3.png" size="2281"/></image><image name="safemoney"><file premulAlpha="0" name="safemoney.png" size="31994"/></image><image name="pipe-vertical"><file premulAlpha="0" name="pipe-vertical.png" size="656"/></image><image name="fire16"><file premulAlpha="0" name="fire16.png" size="7059"/></image><image name="fire5"><file premulAlpha="0" name="fire5.png" size="7485"/></image><image name="right-btn"><file premulAlpha="0" name="right-btn.png" size="3182"/></image></images><behaviors/><fonts/></assets>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.25" GSCVersion="1.25.6227">
+  <sounds>
+    <sound name="pow__fumiya112">
+      <file name="pow__fumiya112.ogg" size="11751" />
+    </sound>
+    <sound name="low-gunshot-03">
+      <file name="low-gunshot-03.ogg" size="18715" />
+    </sound>
+    <sound name="lever-rifle-gunshot-2">
+      <file name="lever-rifle-gunshot-2.ogg" size="16088" />
+    </sound>
+    <sound name="shortelevatorsound">
+      <file name="shortelevatorsound.ogg" size="8844" />
+    </sound>
+    <sound name="background4">
+      <file name="background4.ogg" size="220536" />
+    </sound>
+    <sound name="staticsound">
+      <file name="staticsound.ogg" size="121280" />
+    </sound>
+    <sound name="electriclightflicker">
+      <file name="electriclightflicker.ogg" size="166941" />
+    </sound>
+    <sound name="space-shooting-sounds-001">
+      <file name="space-shooting-sounds-001.ogg" size="17599" />
+    </sound>
+    <sound name="background5">
+      <file name="background5.ogg" size="115380" />
+    </sound>
+    <sound name="background6">
+      <file name="background6.ogg" size="331213" />
+    </sound>
+    <sound name="lift-engine">
+      <file name="lift-engine.ogg" size="29384" />
+    </sound>
+    <sound name="gameover">
+      <file name="gameover.ogg" size="11007" />
+    </sound>
+  </sounds>
+  <images>
+    <image name="tv-d">
+      <file name="tv-d.png" size="1004" />
+    </image>
+    <image name="fire14">
+      <file name="fire14.png" size="6846" />
+    </image>
+    <image name="lights-red2">
+      <file name="lights-red2.png" size="4948" />
+    </image>
+    <image name="lights-b">
+      <file name="lights-b.png" size="2804" />
+    </image>
+    <image name="chapter1">
+      <file name="chapter1.png" size="2649" />
+    </image>
+    <image name="lights-c">
+      <file name="lights-c.png" size="1766" />
+    </image>
+    <image name="lightss-blue">
+      <file name="lightss-blue.png" size="6406" />
+    </image>
+    <image name="barrel">
+      <file name="barrel.png" size="6806" />
+    </image>
+    <image name="chain-handcuff">
+      <file name="chain-handcuff.png" size="13257" />
+    </image>
+    <image name="fire8">
+      <file name="fire8.png" size="6809" />
+    </image>
+    <image name="fire18">
+      <file name="fire18.png" size="7634" />
+    </image>
+    <image name="fire9">
+      <file name="fire9.png" size="6791" />
+    </image>
+    <image name="GO THIS WAY">
+      <file name="GO THIS WAY.png" size="1246" />
+    </image>
+    <image name="fire10">
+      <file name="fire10.png" size="7063" />
+    </image>
+    <image name="THIS WORLD HAS GIVEN ME A LOT OF PAIN">
+      <file name="THIS WORLD HAS GIVEN ME A LOT OF PAIN.png" size="4859" />
+    </image>
+    <image name="fire25">
+      <file name="fire25.png" size="7354" />
+    </image>
+    <image name="fire15">
+      <file name="fire15.png" size="6995" />
+    </image>
+    <image name="level2-story">
+      <file name="level2-story.png" size="1264623" />
+    </image>
+    <image name="tv-side-c">
+      <file name="tv-side-c.png" size="959" />
+    </image>
+    <image name="right-btn">
+      <file name="right-btn.png" size="3182" />
+    </image>
+    <image name="tv-b">
+      <file name="tv-b.png" size="1007" />
+    </image>
+    <image name="Game over screen">
+      <file name="Game over screen.png" size="1529455" />
+    </image>
+    <image name="storyimage">
+      <file name="storyimage.png" size="132292" />
+    </image>
+    <image name="thief-layer1">
+      <file name="thief-layer1.png" size="2902" />
+    </image>
+    <image name="lasers">
+      <file name="lasers.png" size="232" />
+    </image>
+    <image name="fire6">
+      <file name="fire6.png" size="6956" />
+    </image>
+    <image name="lights-red1">
+      <file name="lights-red1.png" size="5589" />
+    </image>
+    <image name="fire12">
+      <file name="fire12.png" size="6728" />
+    </image>
+    <image name="tv-c">
+      <file name="tv-c.png" size="991" />
+    </image>
+    <image name="wall-brown-bg">
+      <file name="wall-brown-bg.png" size="64255" />
+    </image>
+    <image name="fire17">
+      <file name="fire17.png" size="7266" />
+    </image>
+    <image name="lights-yellow-c">
+      <file name="lights-yellow-c.png" size="1535" />
+    </image>
+    <image name="left-btn">
+      <file name="left-btn.png" size="3193" />
+    </image>
+    <image name="wall-white">
+      <file name="wall-white.png" size="53012" />
+    </image>
+    <image name="tv-side-b">
+      <file name="tv-side-b.png" size="962" />
+    </image>
+    <image name="pipe-horizontal">
+      <file name="pipe-horizontal.png" size="743" />
+    </image>
+    <image name="bars">
+      <file name="bars.png" size="22441" />
+    </image>
+    <image name="fire5">
+      <file name="fire5.png" size="7485" />
+    </image>
+    <image name="001-up-arrow">
+      <file name="001-up-arrow.png" size="6654" />
+    </image>
+    <image name="wall-black">
+      <file name="wall-black.png" size="4105" />
+    </image>
+    <image name="fire2">
+      <file name="fire2.png" size="7685" />
+    </image>
+    <image name="fire7">
+      <file name="fire7.png" size="7053" />
+    </image>
+    <image name="fire3">
+      <file name="fire3.png" size="7687" />
+    </image>
+    <image name="fire21">
+      <file name="fire21.png" size="7375" />
+    </image>
+    <image name="chains-long">
+      <file name="chains-long.png" size="2987" />
+    </image>
+    <image name="fire20">
+      <file name="fire20.png" size="7367" />
+    </image>
+    <image name="tv-side-d">
+      <file name="tv-side-d.png" size="975" />
+    </image>
+    <image name="fire11">
+      <file name="fire11.png" size="6629" />
+    </image>
+    <image name="fire24">
+      <file name="fire24.png" size="7140" />
+    </image>
+    <image name="thief-layer2">
+      <file name="thief-layer2.png" size="2820" />
+    </image>
+    <image name="003-right">
+      <file name="003-right.png" size="6974" />
+    </image>
+    <image name="tv2">
+      <file name="tv2.png" size="728" />
+    </image>
+    <image name="fire13">
+      <file name="fire13.png" size="6603" />
+    </image>
+    <image name="fire23">
+      <file name="fire23.png" size="7371" />
+    </image>
+    <image name="top-btn">
+      <file name="top-btn.png" size="2647" />
+    </image>
+    <image name="002-left">
+      <file name="002-left.png" size="7064" />
+    </image>
+    <image name="fire4">
+      <file name="fire4.png" size="7738" />
+    </image>
+    <image name="windows-white">
+      <file name="windows-white.png" size="11331" />
+    </image>
+    <image name="lights-red3">
+      <file name="lights-red3.png" size="4057" />
+    </image>
+    <image name="tv1">
+      <file name="tv1.png" size="455" />
+    </image>
+    <image name="thief-layer-move">
+      <file name="thief-layer-move.png" size="2883" />
+    </image>
+    <image name="fire1">
+      <file name="fire1.png" size="7289" />
+    </image>
+    <image name="lights-white">
+      <file name="lights-white.png" size="6916" />
+    </image>
+    <image name="fire19">
+      <file name="fire19.png" size="7643" />
+    </image>
+    <image name="fire22">
+      <file name="fire22.png" size="7382" />
+    </image>
+    <image name="Loading screen">
+      <file name="Loading screen.png" size="1420275" />
+    </image>
+    <image name="safemoney">
+      <file name="safemoney.png" size="31994" />
+    </image>
+    <image name="pipe-vertical">
+      <file name="pipe-vertical.png" size="656" />
+    </image>
+    <image name="fire16">
+      <file name="fire16.png" size="7059" />
+    </image>
+    <image name="lights-yellow-b">
+      <file name="lights-yellow-b.png" size="2044" />
+    </image>
+    <image name="money">
+      <file name="money.png" size="6398" />
+    </image>
+  </images>
+  <fonts />
+  <behaviors />
+</assets>
+>>>>>>> master
