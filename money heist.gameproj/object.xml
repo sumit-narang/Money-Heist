@@ -12,6 +12,8 @@
   <prototypes>
     <actor id="id964466" />
     <actor id="id431896" />
+    <actor id="id607439" />
+    <actor id="id893862" />
     <actor id="id708186" />
     <actor id="id620390" />
     <actor id="id930462" />
@@ -34,7 +36,6 @@
     <actor id="id637132" />
     <actor id="id814429" />
     <actor id="id445767" />
-    <actor id="id607439" />
     <actor id="id552253" />
     <actor id="id873909" />
     <actor id="id264619" />
@@ -237,6 +238,8 @@
     <boolean id="id743392" name="rightPressed">false</boolean>
     <boolean id="id231935" name="jumpPressed">false</boolean>
     <boolean id="id983846" name="shootPressed">false</boolean>
+    <real id="id219470" name="playerX">0.0</real>
+    <real id="id872037" name="playerY">0.0</real>
   </attributes>
 </game>
 >>>>>>> master
