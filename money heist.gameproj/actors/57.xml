@@ -1,51 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id168786" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id951230" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">box-red-1</text>
+    <text id="name">nextSceneTrigger</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">72</real>
-      <real id="height">60</real>
+      <real id="width">120</real>
+      <real id="height">120</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
       <real id="red">1</real>
       <real id="green">1</real>
       <real id="blue">1</real>
-      <real id="alpha">1</real>
+      <real id="alpha">0</real>
     </color>
-    <image id="image">box-red-1</image>
+    <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id601458" class="AnimateBehavior" enabled="true">
+    <behavior id="id612992" class="RuleBehavior" enabled="true">
       <attributes>
-        <text id="name">Animate</text>
-        <text id="bundleName">Animate.behavior</text>
-        <text id="images">box-red-1	box-red-2	box-red-3	box-red-4	box-red-5	box-red-6</text>
-        <index id="speed">10</index>
-        <boolean id="loop">true</boolean>
-        <boolean id="restoreActorImage">true</boolean>
-        <text id="currentFrameAttribute" />
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
       </attributes>
-    </behavior>
-    <behavior id="id947152" class="PlaySoundAction" enabled="true">
-      <attributes>
-        <text id="name">Play Sound</text>
-        <text id="bundleName">PlaySound.behavior</text>
-        <sound id="soundName">staticsound</sound>
-        <boolean id="loop">false</boolean>
-        <boolean id="runToCompletion">true</boolean>
-        <boolean id="positional">false</boolean>
-        <boolean id="dopplerShift">false</boolean>
-        <real id="volume">1</real>
-        <real id="pitch">1</real>
-      </attributes>
+      <conditions>
+        <condition id="id125177" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey">id964466</text>
+              <text id="actorTag" />
+              <real id="mode">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id495378" class="ChangeSceneAction" enabled="true">
+          <attributes>
+            <text id="name">Change Scene</text>
+            <text id="bundleName">ChangeScene.behavior</text>
+            <text id="sceneKey">next</text>
+            <index id="enableAdvertisement">0</index>
+            <index id="index">1</index>
+          </attributes>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>
@@ -59,8 +68,6 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth">72</integer>
-        <integer id="tileHeight">60</integer>
       </attributes>
     </graphics>
     <motion>

@@ -191,7 +191,7 @@
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
             <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
-            <text id="RHS">300</text>
+            <text id="RHS">-300</text>
           </attributes>
         </behavior>
       </elseBehaviors>
