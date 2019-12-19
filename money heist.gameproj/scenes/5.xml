@@ -2411,12 +2411,12 @@
         <actor id="id558120" prototype="id171490">
           <attributes>
             <point id="position">
-              <real id="x">169</real>
-              <real id="y">46</real>
+              <real id="x">84</real>
+              <real id="y">55</real>
             </point>
             <size id="size">
-              <real id="width">52</real>
-              <real id="height">80</real>
+              <real id="width">38</real>
+              <real id="height">58</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -2425,12 +2425,12 @@
         <actor id="id430567" prototype="id723168">
           <attributes>
             <point id="position">
-              <real id="x">572</real>
-              <real id="y">45</real>
+              <real id="x">606</real>
+              <real id="y">55</real>
             </point>
             <size id="size">
-              <real id="width">104.52459016393</real>
-              <real id="height">72.868571428571</real>
+              <real id="width">99</real>
+              <real id="height">34</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -2439,12 +2439,12 @@
         <actor id="id740771" prototype="id563859">
           <attributes>
             <point id="position">
-              <real id="x">66</real>
-              <real id="y">43</real>
+              <real id="x">29</real>
+              <real id="y">55</real>
             </point>
             <size id="size">
-              <real id="width">52</real>
-              <real id="height">80</real>
+              <real id="width">38</real>
+              <real id="height">58</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -2459,6 +2459,20 @@
             <size id="size">
               <real id="width">66.666666666667</real>
               <real id="height">79.333333333333</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id587118" prototype="id438358">
+          <attributes>
+            <point id="position">
+              <real id="x">191</real>
+              <real id="y">314</real>
+            </point>
+            <size id="size">
+              <real id="width">150</real>
+              <real id="height">30</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>

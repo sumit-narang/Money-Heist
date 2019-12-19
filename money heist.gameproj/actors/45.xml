@@ -18,7 +18,7 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">top-btn</image>
+    <image id="image">jump-btn-new</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
