@@ -414,6 +414,18 @@
     <image name="right-btn">
       <file name="right-btn.png" size="3182" />
     </image>
+    <image name="health_0">
+      <file name="health_0.png" size="596" />
+    </image>
+    <image name="health_13">
+      <file name="health_13.png" size="689" />
+    </image>
+    <image name="health_23">
+      <file name="health_23.png" size="690" />
+    </image>
+    <image name="health_full">
+      <file name="health_full.png" size="682" />
+    </image>
   </images>
   <fonts />
   <behaviors />

@@ -66,6 +66,8 @@
     <actor id="id116113" />
     <actor id="id951230" />
     <actor id="id837374" />
+    <actor id="id181570" />
+    <actor id="id438358" />
   </prototypes>
   <plugins>
     <attributes id="playhaven" />
@@ -249,5 +251,6 @@
     <boolean id="id983846" name="shootPressed">false</boolean>
     <real id="id219470" name="playerX">0</real>
     <real id="id872037" name="playerY">0</real>
+    <real id="id751954" name="health">0.0</real>
   </attributes>
 </game>
