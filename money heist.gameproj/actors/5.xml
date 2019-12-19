@@ -1,157 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id607439" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id125515" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">bullet</text>
+    <text id="name">motorbike</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">16</real>
-      <real id="height">5</real>
+      <real id="width">132</real>
+      <real id="height">92</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
       <real id="red">1</real>
-      <real id="green">0</real>
-      <real id="blue">0</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">fire-2</image>
+    <image id="image">motorbike</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
+    <boolean id="id492296" name="facingRight">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id660485" class="MoveBehavior" enabled="true">
+    <behavior id="id526072" class="RuleBehavior" enabled="true">
       <attributes>
-        <text id="name">Move</text>
-        <text id="bundleName">Move.behavior</text>
-        <angle id="direction">0</angle>
-        <index id="space">0</index>
-        <index id="moveType">0</index>
-        <real id="speed">400</real>
-        <boolean id="haltWhenBehaviorStops">true</boolean>
-      </attributes>
-    </behavior>
-    <behavior id="id229584" class="AccelerateBehavior" enabled="true">
-      <attributes>
-        <text id="name">Gravity</text>
-        <text id="bundleName">Accelerate.behavior</text>
-        <angle id="direction">270</angle>
-        <index id="space">1</index>
-        <real id="acceleration">500</real>
-      </attributes>
-    </behavior>
-    <behavior id="id172946" class="CompoundBehavior" enabled="true">
-      <attributes>
-        <text id="name">Destroy</text>
-        <text id="bundleName">Group.behavior</text>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
         <boolean id="runOnce">false</boolean>
         <boolean id="runSequentially">false</boolean>
+        <real id="compoundConditionKind">0</real>
       </attributes>
-      <behaviors>
-        <behavior id="id488128" class="RuleBehavior" enabled="true">
+      <conditions>
+        <condition id="id166040" eventType="mouse position" pluginPredicateTypeIndex="0">
           <attributes>
-            <text id="name">hits obstacle</text>
-            <text id="bundleName">Rule.behavior</text>
-            <boolean id="runOnce">false</boolean>
-            <boolean id="runSequentially">false</boolean>
-            <real id="compoundConditionKind">1</real>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">self.attributes.id492296</text>
+            <text id="name">default name</text>
           </attributes>
-          <conditions>
-            <condition id="id419323" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id873909</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id886805" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id431896</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id676857" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id436768</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id633148" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id121817</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id115761" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id930462</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id705808" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id893862</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-          </conditions>
-          <behaviors>
-            <behavior id="id219442" class="DestroyAction" enabled="true">
-              <attributes>
-                <text id="name">Destroy</text>
-                <text id="bundleName">Destroy.behavior</text>
-              </attributes>
-            </behavior>
-          </behaviors>
-          <elseBehaviors />
-        </behavior>
-        <behavior id="id430038" class="TimerBehavior" enabled="true">
+          <predicate type="boolean">
+            <attributes>
+              <index id="RHS">1</index>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id802911" class="MoveBehavior" enabled="true">
           <attributes>
-            <text id="name">off screen</text>
+            <text id="name">Move</text>
+            <text id="bundleName">Move.behavior</text>
+            <angle id="direction">0</angle>
+            <index id="space">1</index>
+            <index id="moveType">0</index>
+            <real id="speed">100</real>
+            <boolean id="haltWhenBehaviorStops">true</boolean>
+          </attributes>
+        </behavior>
+        <behavior id="id976692" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
             <text id="bundleName">Timer.behavior</text>
             <boolean id="runOnce">false</boolean>
             <boolean id="runSequentially">false</boolean>
@@ -160,15 +69,67 @@
             <boolean id="runToCompletion">true</boolean>
           </attributes>
           <behaviors>
-            <behavior id="id504254" class="DestroyAction" enabled="true">
+            <behavior id="id340257" class="ChangeAttributeAction" enabled="true">
               <attributes>
-                <text id="name">Destroy</text>
-                <text id="bundleName">Destroy.behavior</text>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.id492296</text>
+                <text id="RHS">false</text>
+              </attributes>
+            </behavior>
+            <behavior id="id451976" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">self.aspects.graphics.attributes.flipHorizontally</text>
+                <text id="RHS">true</text>
               </attributes>
             </behavior>
           </behaviors>
         </behavior>
       </behaviors>
+      <elseBehaviors>
+        <behavior id="id515491" class="MoveBehavior" enabled="true">
+          <attributes>
+            <text id="name">Move</text>
+            <text id="bundleName">Move.behavior</text>
+            <angle id="direction">180</angle>
+            <index id="space">1</index>
+            <index id="moveType">0</index>
+            <real id="speed">100</real>
+            <boolean id="haltWhenBehaviorStops">true</boolean>
+          </attributes>
+        </behavior>
+        <behavior id="id938059" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <boolean id="runOnce">false</boolean>
+            <boolean id="runSequentially">false</boolean>
+            <index id="timerType">1</index>
+            <real id="interval">3</real>
+            <boolean id="runToCompletion">true</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id783240" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.id492296</text>
+                <text id="RHS">true</text>
+              </attributes>
+            </behavior>
+            <behavior id="id418957" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">self.aspects.graphics.attributes.flipHorizontally</text>
+                <text id="RHS">false</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </elseBehaviors>
     </behavior>
   </behaviors>
   <aspects>
@@ -182,8 +143,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth">16</integer>
-        <integer id="tileHeight">5</integer>
+        <integer id="tileWidth">132</integer>
+        <integer id="tileHeight">92</integer>
       </attributes>
     </graphics>
     <motion>

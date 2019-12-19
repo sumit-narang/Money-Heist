@@ -1,28 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id708186" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id607439" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">background</text>
+    <text id="name">bullet</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">100</real>
-      <real id="height">100</real>
+      <real id="width">16</real>
+      <real id="height">5</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
-      <real id="red">0.38421922922134</real>
-      <real id="green">0.094996154308319</real>
-      <real id="blue">0.033765144646168</real>
-      <real id="alpha">0</real>
+      <real id="red">1</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
+      <real id="alpha">1</real>
     </color>
-    <image id="image" />
+    <image id="image">fire-2</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors />
+  <behaviors>
+    <behavior id="id660485" class="MoveBehavior" enabled="true">
+      <attributes>
+        <text id="name">Move</text>
+        <text id="bundleName">Move.behavior</text>
+        <angle id="direction">0</angle>
+        <index id="space">0</index>
+        <index id="moveType">0</index>
+        <real id="speed">400</real>
+        <boolean id="haltWhenBehaviorStops">true</boolean>
+      </attributes>
+    </behavior>
+    <behavior id="id229584" class="AccelerateBehavior" enabled="true">
+      <attributes>
+        <text id="name">Gravity</text>
+        <text id="bundleName">Accelerate.behavior</text>
+        <angle id="direction">270</angle>
+        <index id="space">1</index>
+        <real id="acceleration">500</real>
+      </attributes>
+    </behavior>
+    <behavior id="id172946" class="CompoundBehavior" enabled="true">
+      <attributes>
+        <text id="name">Destroy</text>
+        <text id="bundleName">Group.behavior</text>
+        <boolean id="runOnce">false</boolean>
+        <boolean id="runSequentially">false</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id488128" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">hits obstacle</text>
+            <text id="bundleName">Rule.behavior</text>
+            <boolean id="runOnce">false</boolean>
+            <boolean id="runSequentially">false</boolean>
+            <real id="compoundConditionKind">1</real>
+          </attributes>
+          <conditions>
+            <condition id="id419323" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
+              <attributes>
+                <index id="conditionType">0</index>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id873909</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+            <condition id="id886805" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
+              <attributes>
+                <index id="conditionType">0</index>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id431896</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+            <condition id="id676857" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
+              <attributes>
+                <index id="conditionType">0</index>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id436768</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+            <condition id="id633148" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
+              <attributes>
+                <index id="conditionType">0</index>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id121817</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+            <condition id="id115761" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
+              <attributes>
+                <index id="conditionType">0</index>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id930462</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+            <condition id="id705808" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
+              <attributes>
+                <index id="conditionType">0</index>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id893862</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id219442" class="DestroyAction" enabled="true">
+              <attributes>
+                <text id="name">Destroy</text>
+                <text id="bundleName">Destroy.behavior</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <elseBehaviors />
+        </behavior>
+        <behavior id="id430038" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name">off screen</text>
+            <text id="bundleName">Timer.behavior</text>
+            <boolean id="runOnce">false</boolean>
+            <boolean id="runSequentially">false</boolean>
+            <index id="timerType">1</index>
+            <real id="interval">3</real>
+            <boolean id="runToCompletion">true</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id504254" class="DestroyAction" enabled="true">
+              <attributes>
+                <text id="name">Destroy</text>
+                <text id="bundleName">Destroy.behavior</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
   <aspects>
     <graphics>
       <attributes>
@@ -34,8 +182,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth">100</integer>
-        <integer id="tileHeight">100</integer>
+        <integer id="tileWidth">16</integer>
+        <integer id="tileHeight">5</integer>
       </attributes>
     </graphics>
     <motion>
@@ -58,9 +206,9 @@
       <attributes>
         <real id="density">1</real>
         <real id="friction">3</real>
-        <real id="restitution">0</real>
+        <real id="restitution">1</real>
         <boolean id="fixedRotation">false</boolean>
-        <boolean id="movable">false</boolean>
+        <boolean id="movable">true</boolean>
         <enumeration id="collisionShape">0</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>
