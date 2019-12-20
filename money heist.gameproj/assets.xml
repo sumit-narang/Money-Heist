@@ -10,8 +10,8 @@
     <sound name="background4">
       <file name="background4.ogg" size="220536" />
     </sound>
-    <sound name="gameover">
-      <file name="gameover.ogg" size="11007" />
+    <sound name="background6">
+      <file name="background6.ogg" size="331213" />
     </sound>
     <sound name="lift-engine">
       <file name="lift-engine.ogg" size="29384" />
@@ -19,8 +19,8 @@
     <sound name="shortelevatorsound">
       <file name="shortelevatorsound.ogg" size="8844" />
     </sound>
-    <sound name="background6">
-      <file name="background6.ogg" size="331213" />
+    <sound name="gameover">
+      <file name="gameover.ogg" size="11007" />
     </sound>
     <sound name="lever-rifle-gunshot-2">
       <file name="lever-rifle-gunshot-2.ogg" size="16088" />
@@ -54,11 +54,14 @@
     <image name="policecar11">
       <file name="policecar11.png" size="1500" />
     </image>
-    <image name="blue-bg-14">
-      <file name="blue-bg-14.png" size="2211" />
+    <image name="fire14">
+      <file name="fire14.png" size="6846" />
     </image>
     <image name="lights-red2">
       <file name="lights-red2.png" size="4948" />
+    </image>
+    <image name="barricades">
+      <file name="barricades.png" size="19116" />
     </image>
     <image name="flicker-6">
       <file name="flicker-6.png" size="24280" />
@@ -84,8 +87,11 @@
     <image name="level3-b-bg">
       <file name="level3-b-bg.png" size="261577" />
     </image>
-    <image name="motor13">
-      <file name="motor13.png" size="2087" />
+    <image name="blow12">
+      <file name="blow12.png" size="6474" />
+    </image>
+    <image name="motor5">
+      <file name="motor5.png" size="2087" />
     </image>
     <image name="Do you know if he is armed sir_ Yes, he just shot a bullet">
       <file name="Do you know if he is armed sir_ Yes, he just shot a bullet.png" size="2131" />
@@ -93,8 +99,8 @@
     <image name="fire10">
       <file name="fire10.png" size="7063" />
     </image>
-    <image name="motor12">
-      <file name="motor12.png" size="2005" />
+    <image name="blow6">
+      <file name="blow6.png" size="10285" />
     </image>
     <image name="flicker-7">
       <file name="flicker-7.png" size="24339" />
@@ -108,8 +114,8 @@
     <image name="policecar13">
       <file name="policecar13.png" size="1500" />
     </image>
-    <image name="policecar19">
-      <file name="policecar19.png" size="1500" />
+    <image name="medicalaid1">
+      <file name="medicalaid1.png" size="1770" />
     </image>
     <image name="tv-side-c">
       <file name="tv-side-c.png" size="959" />
@@ -120,14 +126,23 @@
     <image name="fire3">
       <file name="fire3.png" size="7687" />
     </image>
+    <image name="blow2">
+      <file name="blow2.png" size="7081" />
+    </image>
+    <image name="blow8">
+      <file name="blow8.png" size="11047" />
+    </image>
     <image name="flicker-15">
       <file name="flicker-15.png" size="24303" />
     </image>
-    <image name="motor11">
-      <file name="motor11.png" size="2029" />
+    <image name="blow9">
+      <file name="blow9.png" size="9358" />
     </image>
     <image name="box-red-4">
       <file name="box-red-4.png" size="2675" />
+    </image>
+    <image name="blow11">
+      <file name="blow11.png" size="7996" />
     </image>
     <image name="fire6">
       <file name="fire6.png" size="6956" />
@@ -141,8 +156,8 @@
     <image name="motor6">
       <file name="motor6.png" size="2027" />
     </image>
-    <image name="blue-bg-12">
-      <file name="blue-bg-12.png" size="2153" />
+    <image name="tv-c">
+      <file name="tv-c.png" size="991" />
     </image>
     <image name="fire24">
       <file name="fire24.png" size="7140" />
@@ -150,11 +165,14 @@
     <image name="money">
       <file name="money.png" size="6398" />
     </image>
-    <image name="blue-bg-11">
-      <file name="blue-bg-11.png" size="2206" />
+    <image name="flicker-4">
+      <file name="flicker-4.png" size="24332" />
     </image>
     <image name="flicker-13">
       <file name="flicker-13.png" size="24072" />
+    </image>
+    <image name="swat3">
+      <file name="swat3.png" size="2209" />
     </image>
     <image name="motor14">
       <file name="motor14.png" size="2009" />
@@ -177,8 +195,11 @@
     <image name="blue-bg-6">
       <file name="blue-bg-6.png" size="2226" />
     </image>
-    <image name="motor15">
-      <file name="motor15.png" size="2034" />
+    <image name="swat7">
+      <file name="swat7.png" size="2209" />
+    </image>
+    <image name="blow13">
+      <file name="blow13.png" size="5199" />
     </image>
     <image name="policecar23">
       <file name="policecar23.png" size="1564" />
@@ -204,6 +225,9 @@
     <image name="tv2">
       <file name="tv2.png" size="728" />
     </image>
+    <image name="blow3">
+      <file name="blow3.png" size="8122" />
+    </image>
     <image name="safemoney">
       <file name="safemoney.png" size="31994" />
     </image>
@@ -213,14 +237,35 @@
     <image name="box-red-1">
       <file name="box-red-1.png" size="2064" />
     </image>
+    <image name="blow1">
+      <file name="blow1.png" size="4131" />
+    </image>
+    <image name="motor15">
+      <file name="motor15.png" size="2034" />
+    </image>
     <image name="flicker-11">
       <file name="flicker-11.png" size="24289" />
     </image>
-    <image name="top-btn">
-      <file name="top-btn.png" size="2647" />
+    <image name="tv-d">
+      <file name="tv-d.png" size="1004" />
+    </image>
+    <image name="blue-bg-11">
+      <file name="blue-bg-11.png" size="2206" />
     </image>
     <image name="blue-bg-16">
       <file name="blue-bg-16.png" size="2206" />
+    </image>
+    <image name="fire20">
+      <file name="fire20.png" size="7367" />
+    </image>
+    <image name="blue-bg-5">
+      <file name="blue-bg-5.png" size="2201" />
+    </image>
+    <image name="helicopter">
+      <file name="helicopter.png" size="2658" />
+    </image>
+    <image name="Loading screen">
+      <file name="Loading screen.png" size="1420275" />
     </image>
     <image name="fire1">
       <file name="fire1.png" size="7289" />
@@ -231,8 +276,20 @@
     <image name="level3-e-bg">
       <file name="level3-e-bg.png" size="218057" />
     </image>
+    <image name="blue-bg-8">
+      <file name="blue-bg-8.png" size="2177" />
+    </image>
     <image name="lights-c">
       <file name="lights-c.png" size="1766" />
+    </image>
+    <image name="tv-side-d">
+      <file name="tv-side-d.png" size="975" />
+    </image>
+    <image name="swat8">
+      <file name="swat8.png" size="2231" />
+    </image>
+    <image name="flicker-2">
+      <file name="flicker-2.png" size="24338" />
     </image>
     <image name="lights-white">
       <file name="lights-white.png" size="6916" />
@@ -249,20 +306,29 @@
     <image name="health_23">
       <file name="health_23.png" size="690" />
     </image>
+    <image name="thief-layer-move">
+      <file name="thief-layer-move.png" size="2883" />
+    </image>
     <image name="chain-handcuff">
       <file name="chain-handcuff.png" size="13257" />
     </image>
-    <image name="new-police-move">
-      <file name="new-police-move.png" size="2757" />
+    <image name="swat9">
+      <file name="swat9.png" size="2209" />
     </image>
-    <image name="motor2">
-      <file name="motor2.png" size="2005" />
+    <image name="swat6">
+      <file name="swat6.png" size="2221" />
+    </image>
+    <image name="fire8">
+      <file name="fire8.png" size="6809" />
+    </image>
+    <image name="right-btn">
+      <file name="right-btn.png" size="3182" />
     </image>
     <image name="Hello, Hello Umm…...I am at dollar general Office, kevin Street">
       <file name="Hello, Hello Umm…...I am at dollar general Office, kevin Street.png" size="3161" />
     </image>
-    <image name="motorbike">
-      <file name="motorbike.png" size="2032" />
+    <image name="fire18">
+      <file name="fire18.png" size="7634" />
     </image>
     <image name="fire9">
       <file name="fire9.png" size="6791" />
@@ -270,11 +336,23 @@
     <image name="GO THIS WAY">
       <file name="GO THIS WAY.png" size="1246" />
     </image>
+    <image name="windows-white">
+      <file name="windows-white.png" size="11331" />
+    </image>
+    <image name="fire4">
+      <file name="fire4.png" size="7738" />
+    </image>
+    <image name="policecar19">
+      <file name="policecar19.png" size="1500" />
+    </image>
     <image name="level3-d-bg">
       <file name="level3-d-bg.png" size="197547" />
     </image>
-    <image name="blue-bg-5">
-      <file name="blue-bg-5.png" size="2201" />
+    <image name="blow10">
+      <file name="blow10.png" size="9222" />
+    </image>
+    <image name="blow15">
+      <file name="blow15.png" size="2394" />
     </image>
     <image name="pipe-horizontal">
       <file name="pipe-horizontal.png" size="743" />
@@ -288,35 +366,35 @@
     <image name="fire5">
       <file name="fire5.png" size="7485" />
     </image>
-    <image name="flicker-4">
-      <file name="flicker-4.png" size="24332" />
+    <image name="THIS WORLD HAS GIVEN ME A LOT OF PAIN">
+      <file name="THIS WORLD HAS GIVEN ME A LOT OF PAIN.png" size="4859" />
     </image>
-    <image name="motor7">
-      <file name="motor7.png" size="2029" />
+    <image name="motor11">
+      <file name="motor11.png" size="2029" />
     </image>
-    <image name="medicalaid1">
-      <file name="medicalaid1.png" size="1770" />
+    <image name="blow7">
+      <file name="blow7.png" size="10784" />
     </image>
-    <image name="lights-yellow-c">
-      <file name="lights-yellow-c.png" size="1535" />
+    <image name="fire7">
+      <file name="fire7.png" size="7053" />
     </image>
-    <image name="Loading screen">
-      <file name="Loading screen.png" size="1420275" />
+    <image name="003-right">
+      <file name="003-right.png" size="6974" />
     </image>
-    <image name="right-btn">
-      <file name="right-btn.png" size="3182" />
+    <image name="flicker-10">
+      <file name="flicker-10.png" size="24059" />
     </image>
-    <image name="tv-c">
-      <file name="tv-c.png" size="991" />
+    <image name="swat10">
+      <file name="swat10.png" size="2221" />
     </image>
     <image name="tv-b">
       <file name="tv-b.png" size="1007" />
     </image>
-    <image name="tv-side-d">
-      <file name="tv-side-d.png" size="975" />
+    <image name="thief-layer2">
+      <file name="thief-layer2.png" size="2820" />
     </image>
-    <image name="flicker-2">
-      <file name="flicker-2.png" size="24338" />
+    <image name="motor13">
+      <file name="motor13.png" size="2087" />
     </image>
     <image name="Game over screen">
       <file name="Game over screen.png" size="1529455" />
@@ -327,65 +405,65 @@
     <image name="blue-bg-15">
       <file name="blue-bg-15.png" size="2181" />
     </image>
+    <image name="motorbike">
+      <file name="motorbike.png" size="2032" />
+    </image>
+    <image name="motor2">
+      <file name="motor2.png" size="2005" />
+    </image>
+    <image name="swat5">
+      <file name="swat5.png" size="2209" />
+    </image>
+    <image name="swat4">
+      <file name="swat4.png" size="2231" />
+    </image>
+    <image name="barrel">
+      <file name="barrel.png" size="6806" />
+    </image>
+    <image name="flicker-5">
+      <file name="flicker-5.png" size="24299" />
+    </image>
+    <image name="fire22">
+      <file name="fire22.png" size="7382" />
+    </image>
+    <image name="blue-bg-14">
+      <file name="blue-bg-14.png" size="2211" />
+    </image>
+    <image name="fire25">
+      <file name="fire25.png" size="7354" />
+    </image>
     <image name="fire17">
       <file name="fire17.png" size="7266" />
-    </image>
-    <image name="thief-layer-move">
-      <file name="thief-layer-move.png" size="2883" />
-    </image>
-    <image name="fire20">
-      <file name="fire20.png" size="7367" />
-    </image>
-    <image name="thief-layer1">
-      <file name="thief-layer1.png" size="2902" />
-    </image>
-    <image name="helicopter">
-      <file name="helicopter.png" size="2658" />
-    </image>
-    <image name="windows-white">
-      <file name="windows-white.png" size="11331" />
-    </image>
-    <image name="fire4">
-      <file name="fire4.png" size="7738" />
-    </image>
-    <image name="blue-bg-7">
-      <file name="blue-bg-7.png" size="2203" />
-    </image>
-    <image name="blue-bg-8">
-      <file name="blue-bg-8.png" size="2177" />
-    </image>
-    <image name="policecar27">
-      <file name="policecar27.png" size="1500" />
     </image>
     <image name="motor3">
       <file name="motor3.png" size="2029" />
     </image>
-    <image name="THIS WORLD HAS GIVEN ME A LOT OF PAIN">
-      <file name="THIS WORLD HAS GIVEN ME A LOT OF PAIN.png" size="4859" />
+    <image name="motor12">
+      <file name="motor12.png" size="2005" />
     </image>
-    <image name="flicker-1">
-      <file name="flicker-1.png" size="24260" />
+    <image name="storyimage">
+      <file name="storyimage.png" size="132292" />
     </image>
-    <image name="003-right">
-      <file name="003-right.png" size="6974" />
+    <image name="blow14">
+      <file name="blow14.png" size="4995" />
     </image>
     <image name="lasers">
       <file name="lasers.png" size="232" />
     </image>
-    <image name="thief-layer2">
-      <file name="thief-layer2.png" size="2820" />
+    <image name="new-police-move">
+      <file name="new-police-move.png" size="2757" />
     </image>
-    <image name="motor5">
-      <file name="motor5.png" size="2087" />
+    <image name="tv-side-b">
+      <file name="tv-side-b.png" size="962" />
     </image>
-    <image name="fire18">
-      <file name="fire18.png" size="7634" />
+    <image name="flicker-12">
+      <file name="flicker-12.png" size="24121" />
     </image>
     <image name="level3-a-bg">
       <file name="level3-a-bg.png" size="228987" />
     </image>
-    <image name="fire11">
-      <file name="fire11.png" size="6629" />
+    <image name="wall-brown-bg">
+      <file name="wall-brown-bg.png" size="64255" />
     </image>
     <image name="fire12">
       <file name="fire12.png" size="6728" />
@@ -396,11 +474,11 @@
     <image name="motor8">
       <file name="motor8.png" size="2005" />
     </image>
-    <image name="fire8">
-      <file name="fire8.png" size="6809" />
+    <image name="lights-red3">
+      <file name="lights-red3.png" size="4057" />
     </image>
-    <image name="flicker-10">
-      <file name="flicker-10.png" size="24059" />
+    <image name="top-btn">
+      <file name="top-btn.png" size="2647" />
     </image>
     <image name="level3-g-bg">
       <file name="level3-g-bg.png" size="263693" />
@@ -408,32 +486,32 @@
     <image name="lights-yellow-b">
       <file name="lights-yellow-b.png" size="2044" />
     </image>
-    <image name="barrel">
-      <file name="barrel.png" size="6806" />
-    </image>
-    <image name="health_full">
-      <file name="health_full.png" size="682" />
-    </image>
-    <image name="fire22">
-      <file name="fire22.png" size="7382" />
-    </image>
-    <image name="tv-d">
-      <file name="tv-d.png" size="1004" />
+    <image name="blow5">
+      <file name="blow5.png" size="9394" />
     </image>
     <image name="flicker-14">
       <file name="flicker-14.png" size="24293" />
     </image>
+    <image name="lights-yellow-c">
+      <file name="lights-yellow-c.png" size="1535" />
+    </image>
+    <image name="lights-b">
+      <file name="lights-b.png" size="2804" />
+    </image>
+    <image name="health_full">
+      <file name="health_full.png" size="682" />
+    </image>
     <image name="wall-white">
       <file name="wall-white.png" size="53012" />
     </image>
-    <image name="flicker-12">
-      <file name="flicker-12.png" size="24121" />
+    <image name="blue-bg-3">
+      <file name="blue-bg-3.png" size="2221" />
     </image>
     <image name="policecar2">
       <file name="policecar2.png" size="1500" />
     </image>
-    <image name="tv-side-b">
-      <file name="tv-side-b.png" size="962" />
+    <image name="fire-police">
+      <file name="fire-police.png" size="136" />
     </image>
     <image name="blue-bg-13">
       <file name="blue-bg-13.png" size="2196" />
@@ -450,26 +528,26 @@
     <image name="swat">
       <file name="swat.png" size="2230" />
     </image>
-    <image name="lights-b">
-      <file name="lights-b.png" size="2804" />
+    <image name="flicker-8">
+      <file name="flicker-8.png" size="24220" />
     </image>
-    <image name="fire14">
-      <file name="fire14.png" size="6846" />
+    <image name="blue-bg-7">
+      <file name="blue-bg-7.png" size="2203" />
     </image>
-    <image name="flicker-5">
-      <file name="flicker-5.png" size="24299" />
+    <image name="swat2">
+      <file name="swat2.png" size="2221" />
     </image>
-    <image name="lights-red3">
-      <file name="lights-red3.png" size="4057" />
+    <image name="flicker-1">
+      <file name="flicker-1.png" size="24260" />
     </image>
-    <image name="blue-bg-3">
-      <file name="blue-bg-3.png" size="2221" />
+    <image name="policecar27">
+      <file name="policecar27.png" size="1500" />
     </image>
-    <image name="wall-brown-bg">
-      <file name="wall-brown-bg.png" size="64255" />
+    <image name="fire11">
+      <file name="fire11.png" size="6629" />
     </image>
-    <image name="fire-police">
-      <file name="fire-police.png" size="136" />
+    <image name="thief-layer1">
+      <file name="thief-layer1.png" size="2902" />
     </image>
     <image name="level3-f-bg">
       <file name="level3-f-bg.png" size="197961" />
@@ -477,8 +555,8 @@
     <image name="motor10">
       <file name="motor10.png" size="2005" />
     </image>
-    <image name="storyimage">
-      <file name="storyimage.png" size="132292" />
+    <image name="blow4">
+      <file name="blow4.png" size="9150" />
     </image>
     <image name="box-red-6">
       <file name="box-red-6.png" size="2094" />
@@ -486,11 +564,11 @@
     <image name="fire23">
       <file name="fire23.png" size="7371" />
     </image>
-    <image name="fire25">
-      <file name="fire25.png" size="7354" />
+    <image name="blue-bg-12">
+      <file name="blue-bg-12.png" size="2153" />
     </image>
-    <image name="flicker-8">
-      <file name="flicker-8.png" size="24220" />
+    <image name="swat1">
+      <file name="swat1.png" size="2230" />
     </image>
     <image name="fire-2">
       <file name="fire-2.png" size="131" />
@@ -516,14 +594,14 @@
     <image name="fire19">
       <file name="fire19.png" size="7643" />
     </image>
-    <image name="level3-c-bg">
-      <file name="level3-c-bg.png" size="198087" />
+    <image name="new-new-police-stand">
+      <file name="new-new-police-stand.png" size="2573" />
     </image>
     <image name="box-red-3">
       <file name="box-red-3.png" size="2281" />
     </image>
-    <image name="fire7">
-      <file name="fire7.png" size="7053" />
+    <image name="motor7">
+      <file name="motor7.png" size="2029" />
     </image>
     <image name="pipe-vertical">
       <file name="pipe-vertical.png" size="656" />
@@ -531,8 +609,8 @@
     <image name="fire16">
       <file name="fire16.png" size="7059" />
     </image>
-    <image name="new-new-police-stand">
-      <file name="new-new-police-stand.png" size="2573" />
+    <image name="level3-c-bg">
+      <file name="level3-c-bg.png" size="198087" />
     </image>
     <image name="motor9">
       <file name="motor9.png" size="2087" />

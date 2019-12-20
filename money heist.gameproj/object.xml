@@ -12,6 +12,8 @@
     <actor id="id876162" />
     <actor id="id125515" />
     <actor id="id552253" />
+    <actor id="id265040" />
+    <actor id="id152547" />
     <actor id="id607439" />
     <actor id="id893862" />
     <actor id="id708186" />
@@ -94,6 +96,7 @@
     <scene id="id739733" />
     <scene id="id269551" />
     <scene id="id211012" />
+    <scene id="id814774" />
   </scenes>
   <attributes>
     <text id="name">default name</text>
@@ -264,5 +267,6 @@
     <real id="id219470" name="playerX">0</real>
     <real id="id872037" name="playerY">0</real>
     <real id="id751954" name="health">0</real>
+    <integer id="id717302" name="wallY">0</integer>
   </attributes>
 </game>

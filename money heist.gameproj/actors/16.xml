@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id664125" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id834018" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">blue-bg-1</text>
+    <text id="name">swat</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">305</real>
-      <real id="height">160</real>
+      <real id="width">198</real>
+      <real id="height">98</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,20 +18,65 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">blue-bg-1</image>
+    <image id="image">swat1</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id899004" class="AnimateBehavior" enabled="true">
+    <behavior id="id104572" class="AnimateBehavior" enabled="true">
       <attributes>
         <text id="name">Animate</text>
         <text id="bundleName">Animate.behavior</text>
-        <text id="images">blue-bg-1	blue-bg-2	blue-bg-3	blue-bg-4	blue-bg-5	blue-bg-6	blue-bg-7	blue-bg-8	blue-bg-9	blue-bg-10	blue-bg-11	blue-bg-12	blue-bg-13	blue-bg-14	blue-bg-15	blue-bg-16</text>
+        <text id="images">swat1	swat2	swat3	swat4	swat5	swat6	swat7	swat8	swat9	swat10</text>
         <index id="speed">10</index>
         <boolean id="loop">true</boolean>
         <boolean id="restoreActorImage">true</boolean>
         <text id="currentFrameAttribute" />
+      </attributes>
+    </behavior>
+    <behavior id="id137028" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">platform</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id883772" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey">id964466</text>
+              <text id="actorTag" />
+              <real id="mode">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id522762" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id717302</text>
+            <text id="RHS">
+              <expression>
+                <reference keypath="self.attributes.position.y" />
+              </expression>
+            </text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id820923" class="CollideBehavior" enabled="true">
+      <attributes>
+        <text id="name">Collide</text>
+        <text id="bundleName">Collide.behavior</text>
+        <text id="prototypeKey">id708186</text>
+        <text id="actorTag">Ground</text>
+        <index id="mode">0</index>
       </attributes>
     </behavior>
   </behaviors>
@@ -46,8 +91,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth">305</integer>
-        <integer id="tileHeight">160</integer>
+        <integer id="tileWidth">198</integer>
+        <integer id="tileHeight">98</integer>
       </attributes>
     </graphics>
     <motion>
@@ -70,8 +115,8 @@
       <attributes>
         <real id="density">1</real>
         <real id="friction">3</real>
-        <real id="restitution">1</real>
-        <boolean id="fixedRotation">false</boolean>
+        <real id="restitution">0</real>
+        <boolean id="fixedRotation">true</boolean>
         <boolean id="movable">true</boolean>
         <enumeration id="collisionShape">0</enumeration>
         <real id="drag">0</real>

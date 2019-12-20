@@ -23,7 +23,7 @@
     <boolean id="preloadArt">true</boolean>
     <boolean id="id492296" name="facingRight">true</boolean>
     <integer id="id270179" name="hitCount">0</integer>
-    <real id="id722999" name="distance">0.0</real>
+    <real id="id722999" name="distance">0</real>
   </attributes>
   <behaviors>
     <behavior id="id499988" class="ConstrainAttributeBehavior" enabled="true">
@@ -341,6 +341,7 @@
           </attributes>
         </behavior>
       </behaviors>
+      <elseBehaviors />
     </behavior>
     <behavior id="id315018" class="RuleBehavior" enabled="true">
       <attributes>
@@ -372,7 +373,21 @@
             <text id="bundleName">Destroy.behavior</text>
           </attributes>
         </behavior>
+        <behavior id="id495339" class="SpawnAction" enabled="true">
+          <attributes>
+            <text id="name">Spawn Actor</text>
+            <text id="bundleName">Spawn.behavior</text>
+            <text id="prototypeKey">id265040</text>
+            <angle id="direction">0</angle>
+            <index id="directionSpace">0</index>
+            <real id="x">0</real>
+            <real id="y">0</real>
+            <index id="positionSpace">0</index>
+            <index id="layerOrder">0</index>
+          </attributes>
+        </behavior>
       </behaviors>
+      <elseBehaviors />
     </behavior>
     <behavior id="id504328" class="CollideBehavior" enabled="true">
       <attributes>

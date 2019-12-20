@@ -1,211 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id607439" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id265040" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">bullet</text>
+    <text id="name">blow1</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">16</real>
-      <real id="height">5</real>
+      <real id="width">40</real>
+      <real id="height">92</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
       <real id="red">1</real>
-      <real id="green">0</real>
-      <real id="blue">0</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">fire-2</image>
+    <image id="image">blow1</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id660485" class="MoveBehavior" enabled="true">
+    <behavior id="id141705" class="AnimateBehavior" enabled="true">
       <attributes>
-        <text id="name">Move</text>
-        <text id="bundleName">Move.behavior</text>
-        <angle id="direction">0</angle>
-        <index id="space">0</index>
-        <index id="moveType">0</index>
-        <real id="speed">400</real>
-        <boolean id="haltWhenBehaviorStops">true</boolean>
+        <text id="name">Animate</text>
+        <text id="bundleName">Animate.behavior</text>
+        <text id="images">blow1	blow2	blow3	blow4	blow5	blow6	blow7	blow8	blow9	blow10	blow11	blow12	blow13	blow14	blow15</text>
+        <index id="speed">15</index>
+        <boolean id="loop">false</boolean>
+        <boolean id="restoreActorImage">false</boolean>
+        <text id="currentFrameAttribute" />
       </attributes>
     </behavior>
-    <behavior id="id229584" class="AccelerateBehavior" enabled="true">
+    <behavior id="id432709" class="TimerBehavior" enabled="true">
       <attributes>
-        <text id="name">Gravity</text>
-        <text id="bundleName">Accelerate.behavior</text>
-        <angle id="direction">270</angle>
-        <index id="space">1</index>
-        <real id="acceleration">500</real>
-      </attributes>
-    </behavior>
-    <behavior id="id172946" class="CompoundBehavior" enabled="true">
-      <attributes>
-        <text id="name">Destroy</text>
-        <text id="bundleName">Group.behavior</text>
-        <boolean id="runOnce">false</boolean>
-        <boolean id="runSequentially">false</boolean>
+        <text id="name">Timer</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">1</index>
+        <real id="interval">1</real>
+        <boolean id="runToCompletion">true</boolean>
       </attributes>
       <behaviors>
-        <behavior id="id488128" class="RuleBehavior" enabled="true">
+        <behavior id="id110092" class="DestroyAction" enabled="true">
           <attributes>
-            <text id="name">hits obstacle</text>
-            <text id="bundleName">Rule.behavior</text>
-            <boolean id="runOnce">false</boolean>
-            <boolean id="runSequentially">false</boolean>
-            <real id="compoundConditionKind">1</real>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
           </attributes>
-          <conditions>
-            <condition id="id419323" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id873909</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id886805" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id431896</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id676857" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id436768</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id633148" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id121817</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id115761" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id930462</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id705808" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
-              <attributes>
-                <index id="conditionType">0</index>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id893862</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id262829" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id125515</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id310456" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id876162</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id335354" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id834018</text>
-                  <text id="actorTag" />
-                  <real id="mode">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-          </conditions>
-          <behaviors>
-            <behavior id="id219442" class="DestroyAction" enabled="true">
-              <attributes>
-                <text id="name">Destroy</text>
-                <text id="bundleName">Destroy.behavior</text>
-              </attributes>
-            </behavior>
-          </behaviors>
-          <elseBehaviors />
-        </behavior>
-        <behavior id="id430038" class="TimerBehavior" enabled="true">
-          <attributes>
-            <text id="name">off screen</text>
-            <text id="bundleName">Timer.behavior</text>
-            <boolean id="runOnce">false</boolean>
-            <boolean id="runSequentially">false</boolean>
-            <index id="timerType">1</index>
-            <real id="interval">3</real>
-            <boolean id="runToCompletion">true</boolean>
-          </attributes>
-          <behaviors>
-            <behavior id="id504254" class="DestroyAction" enabled="true">
-              <attributes>
-                <text id="name">Destroy</text>
-                <text id="bundleName">Destroy.behavior</text>
-              </attributes>
-            </behavior>
-          </behaviors>
         </behavior>
       </behaviors>
     </behavior>
@@ -221,8 +63,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth">16</integer>
-        <integer id="tileHeight">5</integer>
+        <integer id="tileWidth">40</integer>
+        <integer id="tileHeight">92</integer>
       </attributes>
     </graphics>
     <motion>
